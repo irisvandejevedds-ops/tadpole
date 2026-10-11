@@ -1,0 +1,28 @@
+[Unit]
+Description=Tadpole web (FastAPI on loopback)
+After=network.target
+
+[Service]
+User=tadpole
+Group=tadpole
+EnvironmentFile=/etc/tadpole/tadpole.env
+Environment=PYTHONDONTWRITEBYTECODE=1
+WorkingDirectory=/opt/tadpole/app
+ExecStart=/opt/tadpole/venv/bin/uvicorn tadpole.main:get_app --factory --host 127.0.0.1 --port 8101 --no-server-header --proxy-headers --forwarded-allow-ips 127.0.0.1
+Restart=always
+RestartSec=3
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/tadpole
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+CapabilityBoundingSet=
+MemoryMax=300M
+
+[Install]
+WantedBy=multi-user.target

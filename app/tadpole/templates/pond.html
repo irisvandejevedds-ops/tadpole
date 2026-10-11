@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% import "_ui.html" as ui %}
+{% block title %}Tadpole{% endblock %}
+{% block body %}
+{% set g = pond.growth %}
+<section class="hero">
+  <div class="stage bob" id="stage">{{ frog(pond.stage, pond.color, 8) }}</div>
+  <div class="herotext">
+    <p class="label">{{ pond.stage_name }}</p>
+    <h1>{{ {'green': 'Happy', 'yellow': 'Peckish', 'red': 'Hungry'}[pond.color] }}</h1>
+    <p>{{ pond.line }}</p>
+    <p class="small muted">Last entry: {{ pond.ago }}</p>
+  </div>
+</section>
+
+<form class="card" method="post" action="/entry" id="entry">
+  {% call ui.head('i-entry', 'What happened?') %}Type it like a note. Food is the default. Mention a symptom with how bad, like &ldquo;bloating 6&rdquo;, and it is kept as one. &ldquo;No symptoms today&rdquo; records an all-clear, which also counts as a calm day.{% endcall %}
+  <input class="big-in" type="text" name="text" maxlength="400" autocomplete="off" autocapitalize="sentences" placeholder="Oatmeal with banana, coffee" aria-label="Entry" required>
+  <div class="row"><button class="btn" type="submit">Add</button><button class="btn ghost" type="submit" formaction="/entry/clear" formnovalidate>No symptoms today</button></div>
+</form>
+
+{% if just %}
+<div class="notice">Saved as <strong>{{ kind_words[just.kind] }}{% if just.severity is not none and just.kind == 'symptom' %} {{ just.severity }}/10{% endif %}</strong>: {{ just.text }}.
+  <form method="post" action="/entry/remove" class="inline"><input type="hidden" name="id" value="{{ just.id }}"><input type="hidden" name="back" value="/"><button class="btn ghost" type="submit">Undo</button></form>
+  <a class="small" href="/diary#e{{ just.id }}">Change it</a></div>
+{% endif %}
+
+<div class="card" id="growth">{% call ui.head('i-growth', 'Growing up') %}A day with entries and mild symptoms (3 or under) grows it. A middling day (4 to 6) sets it back half a day, a rough day (7 or over) two days. Days with no entries change nothing. Today only counts against it until the day is over. The colour is separate: it goes yellow after about 18 hours without an entry, and red after about 42.{% endcall %}
+  <p class="small">{% if g.to_next is none %}Fully grown. Keep the symptoms calm and it stays a frog.{% else %}{{ '%g' % g.to_next }} calm {{ 'day' if g.to_next == 1 else 'days' }} to the next stage, {{ g.stages[g.stage + 1][1] }}.{% endif %}</p>
+  <div class="meter"><i style="width:{{ (100 * g.stage / (g.stages|length - 1))|round|int }}%"></i></div>
+  <p class="small muted">Symptoms this week: <strong>{{ pond.control.label }}</strong>{% if pond.control.trend %}, {{ {'better': 'better than last week', 'worse': 'worse than last week', 'steady': 'about the same as last week'}[pond.control.trend] }}{% endif %}.</p>
+</div>
+
+<div class="card"><h3>Today</h3>
+  {% for r in todays %}
+  <div class="entry {{ r.kind }}"><span class="when">{{ hhmm(r.ts) }}</span>
+    <span class="txt">{{ r.text }}</span><span class="chip {{ r.kind }}">{{ kind_words[r.kind] }}{% if r.kind == 'symptom' %} {{ '?' if r.severity is none else r.severity }}{% endif %}</span></div>
+  {% else %}<p class="muted">Nothing written yet today.</p>{% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% import "_ui.html" as ui %}
+{% block title %}Tadpole: patterns{% endblock %}
+{% block body %}
+<h1>Patterns</h1>
+<div class="card">{% call ui.head('i-bars', 'The last 30 days') %}Each bar is that day's worst symptom out of 10: green is 3 or under, yellow 4 to 6, red 7 or over. A short grey bar means nothing was written that day. Left is a month ago, right is today.{% endcall %}
+  <div class="bars">{% for b in bars %}<div class="bar" title="{{ b.day }}: {{ 'nothing written' if not b.logged else b.sev }}"><i class="{{ 'none' if not b.logged else 'ok' if b.sev <= 3 else 'mid' if b.sev < 7 else 'bad' }}" style="height:{{ 6 if not b.logged else 8 + b.sev * 9 }}px"></i></div>{% endfor %}</div>
+</div>
+
+<div class="card">{% call ui.head('i-trig', 'Foods that came before bad spells') %}Words that showed up in at least three entries, where a symptom of 4 or worse followed within 12 hours more often than usual. This is only a pattern in your own entries, not a diagnosis, and it gets better the more you write. It needs a few weeks of entries, and some bad days, before it can say much. Share it with whoever helps you with this.{% endcall %}
+  {% if trig['items'] %}
+  <table class="t"><thead><tr><th>Word</th><th>Seen</th><th>Followed by symptoms</th></tr></thead><tbody>
+  {% for i in trig['items'] %}<tr><td><strong>{{ i.word }}</strong></td><td>{{ i.seen }}</td><td>{{ i.followed }} of {{ i.seen }} ({{ (100 * i.rate)|round|int }}%)</td></tr>{% endfor %}
+  </tbody></table>
+  <p class="small muted">For comparison, {{ (100 * trig.baseline)|round|int }}% of all your food entries were followed by a symptom.</p>
+  {% else %}<p class="muted">Nothing stands out yet.</p>{% endif %}
+</div>
+<p><a class="btn ghost" href="/export.csv">Download everything (CSV)</a></p>
+{% endblock %}

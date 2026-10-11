@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Tadpole: {{ doc.title }}{% endblock %}
+{% block body %}
+<p><a class="btn ghost" href="/library">Back to the library</a></p>
+<div class="card doc">
+  {% if html is not none %}{{ html }}
+  {% else %}<h2>{{ doc.title }}</h2><p><a class="btn" href="/library/{{ doc.slug }}/file">Open the PDF</a></p>{% endif %}
+</div>
+{% endblock %}

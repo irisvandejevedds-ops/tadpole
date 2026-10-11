@@ -1,0 +1,16 @@
+{% extends "base.html" %}{% set bare = True %}
+{% import "_ui.html" as ui %}
+{% block title %}Tadpole: the pond gate{% endblock %}
+{% block body %}
+<div class="login">
+  <div class="stage bob">{{ frog(0, 'green', 9) }}</div>
+  {% call ui.title('i-login', 'Choose a passphrase' if mode == 'setup' else 'Who is at the pond?') %}{% if mode == "setup" %}The first visit sets the passphrase that guards your diary. Ten characters or more.{% else %}Enter the passphrase you chose on the first visit.{% endif %}{% endcall %}
+  <form class="card" method="post" action="/{{ 'setup' if mode == 'setup' else 'login' }}">
+    {% if error %}<div class="error">{{ error }}</div>{% endif %}
+    <input type="hidden" name="next" value="{{ next }}">
+    <label class="f">Passphrase<input type="password" name="passphrase" autocomplete="{{ 'new-password' if mode == 'setup' else 'current-password' }}" required autofocus></label>
+    {% if mode == "setup" %}<label class="f">Again<input type="password" name="confirm" autocomplete="new-password" required></label>{% endif %}
+    <button class="btn" type="submit">{% if mode == "setup" %}Save it{% else %}Enter{% endif %}</button>
+  </form>
+</div>
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% import "_ui.html" as ui %}
+{% block title %}Tadpole: library{% endblock %}
+{% block body %}
+{% call ui.title('i-library', 'The Library') %}Reference documents kept with the diary: the protocol, reviews and lab reports, copied here from the old Obsidian notes. They are read-only here.{% endcall %}
+<div class="card">
+  {% for d in docs %}
+  <div class="entry"><span class="txt"><a href="/library/{{ d.slug }}">{{ d.title }}</a></span><span class="chip">{{ 'pdf' if d.kind == 'pdf' else 'note' }}</span></div>
+  {% else %}<p class="muted">Nothing here yet.</p>{% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% import "_ui.html" as ui %}
+{% block title %}Tadpole: diary{% endblock %}
+{% block body %}
+{% call ui.title('i-diary', 'The Diary') %}Newest first. Open an entry to fix its words, kind, how bad it was, or when it happened.{% endcall %}
+{% for gr in groups %}
+<div class="card"><div class="cardhead"><h3>{{ gr.label }}</h3>{% if gr.sev is not none %}<span class="chip {{ 'symptom' if gr.sev > 3 else 'food' }}">{{ 'worst ' ~ gr.sev if gr.sev else 'no symptoms' }}</span>{% endif %}</div>
+  {% for r in gr.rows %}
+  <details class="ed" id="e{{ r.id }}"><summary><span class="when">{{ hhmm(r.ts) }}</span> <span class="txt">{{ r.text }}</span> <span class="chip {{ r.kind }}">{{ kind_words[r.kind] }}{% if r.kind == 'symptom' %} {{ '?' if r.severity is none else r.severity }}{% endif %}</span></summary>
+    <form method="post" action="/entry/edit" class="editform"><input type="hidden" name="id" value="{{ r.id }}">
+      <label class="f">Words<input type="text" name="text" value="{{ r.text }}" maxlength="400"></label>
+      <div class="grid2">
+        <label class="f">Kind<select name="kind">{% for k, w in kind_words.items() %}<option value="{{ k }}"{% if k == r.kind %} selected{% endif %}>{{ w }}</option>{% endfor %}</select></label>
+        <label class="f">How bad (symptoms)<select name="severity"><option value="">not said</option>{% for n in range(0, 11) %}<option value="{{ n }}"{% if r.severity == n %} selected{% endif %}>{{ n }}</option>{% endfor %}</select></label>
+        <label class="f">When<input type="datetime-local" name="when" value="{{ local_input(r.ts) }}"></label>
+      </div>
+      <div class="row"><button class="btn" type="submit">Save</button>
+        <button class="btn ghost" type="submit" formaction="/entry/remove" name="back" value="/diary#e{{ r.id }}">Remove</button></div></form>
+    {% set x = entry_facts(r) %}{% if x.facts or x.notes %}
+    <dl class="facts">{% for k, v in x.facts %}<dt>{{ k }}</dt><dd>{{ v }}</dd>{% endfor %}{% for k, v in x.notes %}<dt>{{ k }}</dt><dd class="long">{{ v }}</dd>{% endfor %}</dl>{% endif %}
+  </details>
+  {% else %}<p class="muted">Nothing written.</p>{% endfor %}
+</div>
+{% endfor %}
+<p><a class="btn ghost" href="/diary?days={{ days + 14 }}">Show earlier days</a> <a class="btn ghost" href="/export.csv">Download everything (CSV)</a></p>
+{% if removed %}<div class="card"><h3>Recently removed</h3>
+  {% for r in removed %}<form method="post" action="/entry/remove" class="entry"><input type="hidden" name="id" value="{{ r.id }}"><input type="hidden" name="restore" value="1"><input type="hidden" name="back" value="/diary">
+    <span class="txt">{{ r.text }}</span><button class="btn ghost" type="submit">Put back</button></form>{% endfor %}</div>{% endif %}
+{% endblock %}

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#2F8442">
+<title>{% block title %}Tadpole{% endblock %}</title>
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/static/icons/icon-192.png">
+<link rel="apple-touch-icon" href="/static/icons/icon-512.png">
+<link rel="stylesheet" href="/static/app.css?v=5">
+</head>
+<body data-mood="{{ mood }}">
+{% if not bare %}
+<header class="top"><a class="brand" href="/">Tadpole</a>
+  <nav class="topnav" aria-label="Main">{% for label, href in nav %}<a href="{{ href }}"{% if path == href or (href != '/' and path.startswith(href)) %} aria-current="page"{% endif %}>{{ label }}</a>{% endfor %}</nav></header>
+{% endif %}
+<main class="wrap">{% block body %}{% endblock %}</main>
+{% if not bare %}
+<nav class="tabbar" aria-label="Main">{% for label, href in nav %}<a href="{{ href }}"{% if path == href or (href != '/' and path.startswith(href)) %} aria-current="page"{% endif %}>{{ label }}</a>{% endfor %}</nav>
+{% endif %}
+<script src="/static/app.js" defer></script>
+</body>
+</html>
