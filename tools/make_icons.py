@@ -1,5 +1,4 @@
-"""Draws the two Tadpole icons from the widget's sprite sheet.
-The web app is a green frog on deep pond blue; the widget app is a yellow tadpole on dark amber, so the two are easy to tell apart on a home screen.
+"""Draws the Tadpole icon, a green tadpole on deep pond blue, for the phone app and the browser app alike.
 Both web icons are full-bleed squares with the picture well inside the safe zone: Android adds its own shape and a transparent corner shows up as a white disc."""
 import json
 import pathlib
@@ -7,8 +6,8 @@ from PIL import Image
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 SPRITES = json.loads((ROOT / "android/assets/tadpole.json").read_text())
-WEB = {"stage": 5, "color": "green", "bg": "#123A43"}
-WIDGET = {"stage": 0, "color": "yellow", "bg": "#3D2F0E"}
+WIDGET = {"stage": 0, "color": "green", "bg": "#123A43"}
+WEB = WIDGET
 
 
 def sprite(stage, color, cell):
