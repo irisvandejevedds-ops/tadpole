@@ -13,3 +13,8 @@ android/build/
 *.keystore
 *.jks
 *.pass
+.venv/
+android/assets/web/
+site/dist/
+site/.wrangler/
+!release/tadpole.apk

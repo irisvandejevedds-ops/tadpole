@@ -18,8 +18,7 @@ public class PondWidget extends AppWidgetProvider {
     @Override
     public void onUpdate(Context c, AppWidgetManager m, int[] ids) {
         paint(c, m, ids);
-        Sync.scheduleSync(c);
-        Sync.ensurePeriodic(c);
+        Local.ensurePeriodic(c);
     }
 
     @Override
@@ -29,7 +28,7 @@ public class PondWidget extends AppWidgetProvider {
     }
 
     @Override
-    public void onEnabled(Context c) { Sync.ensurePeriodic(c); }
+    public void onEnabled(Context c) { Local.ensurePeriodic(c); }
 
     @Override
     public void onAppWidgetOptionsChanged(Context c, AppWidgetManager m, int id, Bundle options) {
@@ -79,10 +78,10 @@ public class PondWidget extends AppWidgetProvider {
         int pad = Math.round(8 * d), gap = Math.round(4 * d), barH = Math.round(38 * d), sq = Math.round(38 * d), refreshW = Math.round(36 * d);
 
         JSONObject st = null;
-        try { String raw = Store.cache(c); if (!raw.isEmpty()) st = new JSONObject(raw); } catch (JSONException e) { st = null; }
-        String color = st == null ? "green" : st.optString("color", "green");
-        int stage = st == null ? 0 : st.optInt("stage", 0);
-        boolean stale = Store.pending(c) > 0 || Store.cacheAgeMs(c) > 90 * 60 * 1000L;
+        st = Local.state(c);
+        String color = st.optString("color", "green");
+        int stage = st.optInt("stage", 0);
+        boolean stale = Desk.stale(c);
 
         String mode = Store.pick(c);
         if (!mode.isEmpty()) return Picker.view(c, W, H, mode, color);
@@ -97,9 +96,9 @@ public class PondWidget extends AppWidgetProvider {
         rv.setImageViewBitmap(R.id.f0, Pixel.frog(c, stage, color, cell, 0));
         rv.setImageViewBitmap(R.id.f1, Pixel.frog(c, stage, color, cell, 1));
 
-        String line1 = st == null ? "Tadpole" : st.optString("stage_name", "Tadpole");
-        String line2 = st == null ? "Open the app once" : "Last entry " + st.optString("ago", "");
-        String line3 = st == null ? "to connect." : "Symptoms: " + st.optString("control", "not enough yet");
+        String line1 = st.optString("stage_name", "Tadpole");
+        String line2 = "Last entry " + st.optString("ago", "");
+        String line3 = "Symptoms: " + st.optString("control", "not enough yet");
         String[] lines = topH < Math.round(60 * d) ? new String[]{line1, line2} : new String[]{line1, line2, line3};
         rv.setImageViewBitmap(R.id.info, Pixel.text(c, color, lines, textW, topH));
         rv.setImageViewBitmap(R.id.refresh, Pixel.refresh(c, stale));

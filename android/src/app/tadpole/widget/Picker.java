@@ -46,7 +46,7 @@ final class Picker {
     static void handle(Context c, Intent in) {
         if (!Store.nonce(c).equals(in.getStringExtra("n"))) return;
         String cmd = in.getStringExtra("cmd");
-        if (cmd == null || !Store.connected(c)) return;
+        if (cmd == null) return;
         String mode = Store.pick(c);
         int size = Store.pickSize(c), mask = Store.pickMask(c);
         if (cmd.equals("stool") || cmd.equals("neuro")) { Store.setPick(c, cmd, 0, 0); expireLater(c); }
@@ -55,8 +55,8 @@ final class Picker {
         else if (cmd.startsWith("score:") && (mode.equals("stool") || mode.equals("neuro"))) {
             int n = Integer.parseInt(cmd.substring(6));
             if (n >= 1 && n <= 7) {
-                if (mode.equals("stool")) Sync.addQueued(c, "Stool, Bristol " + n, null, "stool");
-                else Sync.addQueued(c, "Neuroinflammation " + n + "/7", NEURO_SEVERITY[n - 1], "symptom");
+                if (mode.equals("stool")) Local.add(c, "Stool, Bristol " + n, null, "stool");
+                else Local.add(c, "Neuroinflammation " + n + "/7", NEURO_SEVERITY[n - 1], "symptom");
                 Store.setPick(c, "", 0, 0);
             }
         } else if (cmd.startsWith("size:") && mode.equals("size")) {
@@ -65,7 +65,7 @@ final class Picker {
         } else if (cmd.startsWith("t:") && mode.equals("trig")) {
             Store.setPick(c, "trig", size, mask ^ (1 << Integer.parseInt(cmd.substring(2))));
         } else if (cmd.equals("save") && mode.equals("trig") && size >= 1) {
-            Sync.addQueued(c, mealText(size, mask), null, "food");
+            Local.add(c, mealText(size, mask), null, "food");
             Store.setPick(c, "", 0, 0);
         } else return;
         PondWidget.refreshAll(c);
@@ -75,7 +75,7 @@ final class Picker {
     private static void expireLater(Context c) {
         JobScheduler js = (JobScheduler) c.getSystemService(Context.JOB_SCHEDULER_SERVICE);
         if (js == null) return;
-        js.schedule(new JobInfo.Builder(11, new ComponentName(c, SyncService.class)).setMinimumLatency(95000).setOverrideDeadline(180000).build());
+        js.schedule(new JobInfo.Builder(Local.JOB_EXPIRE, new ComponentName(c, SyncService.class)).setMinimumLatency(95000).setOverrideDeadline(180000).build());
     }
 
     static RemoteViews view(Context c, int W, int H, String mode, String color) {

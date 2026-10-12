@@ -3,8 +3,6 @@ package app.tadpole.widget;
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
 import android.text.Editable;
 import android.text.InputType;
 import android.text.TextWatcher;
@@ -177,31 +175,9 @@ public class EntryActivity extends Activity {
     private void submit() {
         final String text = input.getText().toString().trim();
         if (text.isEmpty()) return;
-        send.setEnabled(false);
-        send.setText("Adding...");
         final Integer sev = severity >= 0 ? Integer.valueOf(severity) : null;
-        final String kind = forceSymptom ? "symptom" : null;
-        final Handler ui = new Handler(Looper.getMainLooper());
-        new Thread(() -> {
-            Sync.Result r = Sync.add(this, text, sev, kind);
-            PondWidget.refreshAll(this);
-            ui.post(() -> {
-                if (r.error != null) {
-                    Toast.makeText(this, "Couldn't save that: " + r.error + ".", Toast.LENGTH_LONG).show();
-                    send.setEnabled(true);
-                    send.setText("Add");
-                    return;
-                }
-                String msg;
-                if (r.queued) msg = "Saved. It will be sent when you are back in range.";
-                else {
-                    String k = r.data.optString("kind", "food");
-                    int s = r.data.optInt("severity", -1);
-                    msg = "Saved as " + ("clear".equals(k) ? "all clear" : k) + (s >= 0 && "symptom".equals(k) ? " " + s + "/10" : "") + ".";
-                }
-                Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
-                finish();
-            });
-        }).start();
+        Local.add(this, text, sev, forceSymptom ? "symptom" : null);
+        Toast.makeText(this, "Saved.", Toast.LENGTH_SHORT).show();
+        finish();
     }
 }

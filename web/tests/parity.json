@@ -1,0 +1,9788 @@
+{
+"parse": [
+{
+"text": "Oatmeal with banana, coffee",
+"kind": "food",
+"severity": null,
+"out": "Oatmeal with banana, coffee",
+"bristol": null
+},
+{
+"text": "bloating 6",
+"kind": "symptom",
+"severity": 6,
+"out": "bloating 6",
+"bristol": "6"
+},
+{
+"text": "stomach cramps 7/10",
+"kind": "symptom",
+"severity": 7,
+"out": "stomach cramps 7/10",
+"bristol": "7"
+},
+{
+"text": "mild headache",
+"kind": "symptom",
+"severity": 3,
+"out": "mild headache",
+"bristol": null
+},
+{
+"text": "really bad nausea",
+"kind": "symptom",
+"severity": 7,
+"out": "really bad nausea",
+"bristol": null
+},
+{
+"text": "terrible reflux",
+"kind": "symptom",
+"severity": 9,
+"out": "terrible reflux",
+"bristol": null
+},
+{
+"text": "heartburn",
+"kind": "symptom",
+"severity": null,
+"out": "heartburn",
+"bristol": null
+},
+{
+"text": "symptom: tired 4",
+"kind": "symptom",
+"severity": 4,
+"out": "tired 4",
+"bristol": "4"
+},
+{
+"text": "no symptoms today",
+"kind": "clear",
+"severity": 0,
+"out": "no symptoms today",
+"bristol": null
+},
+{
+"text": "feeling fine",
+"kind": "clear",
+"severity": 0,
+"out": "feeling fine",
+"bristol": null
+},
+{
+"text": "all good",
+"kind": "clear",
+"severity": 0,
+"out": "all good",
+"bristol": null
+},
+{
+"text": "note: started new medication",
+"kind": "note",
+"severity": null,
+"out": "started new medication",
+"bristol": null
+},
+{
+"text": "food: 2 eggs and toast",
+"kind": "food",
+"severity": null,
+"out": "2 eggs and toast",
+"bristol": "2"
+},
+{
+"text": "2 eggs and toast at 8",
+"kind": "food",
+"severity": null,
+"out": "2 eggs and toast at 8",
+"bristol": "2"
+},
+{
+"text": "pizza, 3 slices",
+"kind": "food",
+"severity": null,
+"out": "pizza, 3 slices",
+"bristol": "3"
+},
+{
+"text": "woke up neuroinflamed",
+"kind": "symptom",
+"severity": null,
+"out": "woke up neuroinflamed",
+"bristol": null
+},
+{
+"text": "foggy and groggy 4",
+"kind": "symptom",
+"severity": 4,
+"out": "foggy and groggy 4",
+"bristol": "4"
+},
+{
+"text": "some flatulence right now",
+"kind": "symptom",
+"severity": null,
+"out": "some flatulence right now",
+"bristol": null
+},
+{
+"text": "jittery, dehydrated, tense, headachey",
+"kind": "symptom",
+"severity": null,
+"out": "jittery, dehydrated, tense, headachey",
+"bristol": null
+},
+{
+"text": "urgency 5",
+"kind": "symptom",
+"severity": 5,
+"out": "urgency 5",
+"bristol": "5"
+},
+{
+"text": "hungover",
+"kind": "symptom",
+"severity": null,
+"out": "hungover",
+"bristol": null
+},
+{
+"text": "pooped a 6",
+"kind": "stool",
+"severity": null,
+"out": "pooped a 6",
+"bristol": "6"
+},
+{
+"text": "bm 5/6",
+"kind": "stool",
+"severity": null,
+"out": "bm 5/6",
+"bristol": "5-6"
+},
+{
+"text": "stool: 4",
+"kind": "stool",
+"severity": null,
+"out": "4",
+"bristol": "4"
+},
+{
+"text": "Bristol 3 this morning",
+"kind": "stool",
+"severity": null,
+"out": "Bristol 3 this morning",
+"bristol": "3"
+},
+{
+"text": "pooped a 6 and neuroinflamed",
+"kind": "symptom",
+"severity": null,
+"out": "pooped a 6 and neuroinflamed",
+"bristol": "6"
+},
+{
+"text": "coffee and toast at 7",
+"kind": "food",
+"severity": null,
+"out": "coffee and toast at 7",
+"bristol": "7"
+},
+{
+"text": "  spaced    out   text  ",
+"kind": "food",
+"severity": null,
+"out": "spaced out text",
+"bristol": null
+},
+{
+"text": "S: gas 3",
+"kind": "symptom",
+"severity": 3,
+"out": "gas 3",
+"bristol": "3"
+},
+{
+"text": "f: rice",
+"kind": "food",
+"severity": null,
+"out": "rice",
+"bristol": null
+},
+{
+"text": "n: remember to call",
+"kind": "note",
+"severity": null,
+"out": "remember to call",
+"bristol": null
+},
+{
+"text": "ate noodles",
+"kind": "food",
+"severity": null,
+"out": "ate noodles",
+"bristol": null
+},
+{
+"text": "drank a sour beer",
+"kind": "food",
+"severity": null,
+"out": "drank a sour beer",
+"bristol": null
+},
+{
+"text": "no symptoms but a bit of gas",
+"kind": "symptom",
+"severity": 3,
+"out": "no symptoms but a bit of gas",
+"bristol": null
+},
+{
+"text": "symptom-free",
+"kind": "symptom",
+"severity": null,
+"out": "free",
+"bristol": null
+},
+{
+"text": "felt great",
+"kind": "clear",
+"severity": 0,
+"out": "felt great",
+"bristol": null
+},
+{
+"text": "bloating 11",
+"kind": "symptom",
+"severity": null,
+"out": "bloating 11",
+"bristol": null
+},
+{
+"text": "pain 10/10",
+"kind": "symptom",
+"severity": 10,
+"out": "pain 10/10",
+"bristol": null
+},
+{
+"text": "cramps 2 out of 10",
+"kind": "symptom",
+"severity": 2,
+"out": "cramps 2 out of 10",
+"bristol": "2"
+},
+{
+"text": "10",
+"kind": "food",
+"severity": null,
+"out": "10",
+"bristol": null
+},
+{
+"text": "7",
+"kind": "food",
+"severity": null,
+"out": "7",
+"bristol": "7"
+},
+{
+"text": "headache at 3pm",
+"kind": "symptom",
+"severity": null,
+"out": "headache at 3pm",
+"bristol": "3"
+},
+{
+"text": "BM 4",
+"kind": "stool",
+"severity": null,
+"out": "BM 4",
+"bristol": "4"
+},
+{
+"text": "poop 7",
+"kind": "stool",
+"severity": null,
+"out": "poop 7",
+"bristol": "7"
+},
+{
+"text": "stool 5-6",
+"kind": "stool",
+"severity": null,
+"out": "stool 5-6",
+"bristol": "5-6"
+},
+{
+"text": "bristol 6 5",
+"kind": "stool",
+"severity": null,
+"out": "bristol 6 5",
+"bristol": "6"
+},
+{
+"text": "pooped at 9:30",
+"kind": "stool",
+"severity": null,
+"out": "pooped at 9:30",
+"bristol": null
+},
+{
+"text": "lunch 12:30 sandwich",
+"kind": "food",
+"severity": null,
+"out": "lunch 12:30 sandwich",
+"bristol": null
+},
+{
+"text": "bad day",
+"kind": "food",
+"severity": null,
+"out": "bad day",
+"bristol": null
+},
+{
+"text": "very bloated",
+"kind": "symptom",
+"severity": 7,
+"out": "very bloated",
+"bristol": null
+},
+{
+"text": "slight ache",
+"kind": "symptom",
+"severity": 3,
+"out": "slight ache",
+"bristol": null
+},
+{
+"text": "moderate pain",
+"kind": "symptom",
+"severity": 5,
+"out": "moderate pain",
+"bristol": null
+},
+{
+"text": "worst migraine",
+"kind": "symptom",
+"severity": 9,
+"out": "worst migraine",
+"bristol": null
+},
+{
+"text": "not any symptoms",
+"kind": "clear",
+"severity": 0,
+"out": "not any symptoms",
+"bristol": null
+},
+{
+"text": "Meal size 2 (~1000 kcal) - FODMAP triggers: 2 (onion/garlic, dairy)",
+"kind": "food",
+"severity": null,
+"out": "Meal size 2 (~1000 kcal) - FODMAP triggers: 2 (onion/garlic, dairy)",
+"bristol": "2"
+},
+{
+"text": "Stool, Bristol 6",
+"kind": "stool",
+"severity": null,
+"out": "Stool, Bristol 6",
+"bristol": "6"
+},
+{
+"text": "Neuroinflammation 5/7",
+"kind": "symptom",
+"severity": null,
+"out": "Neuroinflammation 5/7",
+"bristol": "5-7"
+},
+{
+"text": "no symptoms",
+"kind": "clear",
+"severity": 0,
+"out": "no symptoms",
+"bristol": null
+},
+{
+"text": "",
+"kind": "food",
+"severity": null,
+"out": "",
+"bristol": null
+},
+{
+"text": "   ",
+"kind": "food",
+"severity": null,
+"out": "",
+"bristol": null
+},
+{
+"text": "symptom:",
+"kind": "symptom",
+"severity": null,
+"out": "",
+"bristol": null
+},
+{
+"text": "food:",
+"kind": "food",
+"severity": null,
+"out": "",
+"bristol": null
+},
+{
+"text": "foggy",
+"kind": "symptom",
+"severity": null,
+"out": "foggy",
+"bristol": null
+},
+{
+"text": "sour beer at 12",
+"kind": "food",
+"severity": null,
+"out": "sour beer at 12",
+"bristol": null
+},
+{
+"text": "coffee with sour beer",
+"kind": "food",
+"severity": null,
+"out": "coffee with sour beer",
+"bristol": null
+},
+{
+"text": "all good",
+"kind": "clear",
+"severity": 0,
+"out": "all good",
+"bristol": null
+},
+{
+"text": "foggy",
+"kind": "symptom",
+"severity": null,
+"out": "foggy",
+"bristol": null
+},
+{
+"text": "banana at 12",
+"kind": "food",
+"severity": null,
+"out": "banana at 12",
+"bristol": null
+},
+{
+"text": "noodles, cheese pizza",
+"kind": "food",
+"severity": null,
+"out": "noodles, cheese pizza",
+"bristol": null
+},
+{
+"text": "sour beer at 6",
+"kind": "food",
+"severity": null,
+"out": "sour beer at 6",
+"bristol": "6"
+},
+{
+"text": "apple with apple",
+"kind": "food",
+"severity": null,
+"out": "apple with apple",
+"bristol": null
+},
+{
+"text": "apple at 3",
+"kind": "food",
+"severity": null,
+"out": "apple at 3",
+"bristol": "3"
+},
+{
+"text": "feeling fine today",
+"kind": "clear",
+"severity": 0,
+"out": "feeling fine today",
+"bristol": null
+},
+{
+"text": "bm type 4/6",
+"kind": "stool",
+"severity": null,
+"out": "bm type 4/6",
+"bristol": "4-6"
+},
+{
+"text": "gas really bad",
+"kind": "symptom",
+"severity": 7,
+"out": "gas really bad",
+"bristol": null
+},
+{
+"text": "nausea really bad",
+"kind": "symptom",
+"severity": 7,
+"out": "nausea really bad",
+"bristol": null
+},
+{
+"text": "tense awful",
+"kind": "symptom",
+"severity": 9,
+"out": "tense awful",
+"bristol": null
+},
+{
+"text": "banana",
+"kind": "food",
+"severity": null,
+"out": "banana",
+"bristol": null
+},
+{
+"text": "foggy 5/10",
+"kind": "symptom",
+"severity": 5,
+"out": "foggy 5/10",
+"bristol": "5"
+},
+{
+"text": "bristol a 1",
+"kind": "stool",
+"severity": null,
+"out": "bristol a 1",
+"bristol": "1"
+},
+{
+"text": "gas",
+"kind": "symptom",
+"severity": null,
+"out": "gas",
+"bristol": null
+},
+{
+"text": "bloating awful",
+"kind": "symptom",
+"severity": 9,
+"out": "bloating awful",
+"bristol": null
+},
+{
+"text": "tense 5",
+"kind": "symptom",
+"severity": 5,
+"out": "tense 5",
+"bristol": "5"
+},
+{
+"text": "foggy bad",
+"kind": "symptom",
+"severity": 7,
+"out": "foggy bad",
+"bristol": null
+},
+{
+"text": "beans at 12",
+"kind": "food",
+"severity": null,
+"out": "beans at 12",
+"bristol": null
+},
+{
+"text": "beans",
+"kind": "food",
+"severity": null,
+"out": "beans",
+"bristol": null
+},
+{
+"text": "feeling fine today",
+"kind": "clear",
+"severity": 0,
+"out": "feeling fine today",
+"bristol": null
+},
+{
+"text": "felt well but pain",
+"kind": "symptom",
+"severity": null,
+"out": "felt well but pain",
+"bristol": null
+},
+{
+"text": "reflux 10/10",
+"kind": "symptom",
+"severity": 10,
+"out": "reflux 10/10",
+"bristol": null
+},
+{
+"text": "reflux really bad",
+"kind": "symptom",
+"severity": 7,
+"out": "reflux really bad",
+"bristol": null
+},
+{
+"text": "eggs",
+"kind": "food",
+"severity": null,
+"out": "eggs",
+"bristol": null
+},
+{
+"text": "tense really bad",
+"kind": "symptom",
+"severity": 7,
+"out": "tense really bad",
+"bristol": null
+},
+{
+"text": "foggy really bad",
+"kind": "symptom",
+"severity": 7,
+"out": "foggy really bad",
+"bristol": null
+},
+{
+"text": "eggs, apple",
+"kind": "food",
+"severity": null,
+"out": "eggs, apple",
+"bristol": null
+},
+{
+"text": "bm 5-2",
+"kind": "stool",
+"severity": null,
+"out": "bm 5-2",
+"bristol": "2-5"
+},
+{
+"text": "pasta with salad",
+"kind": "food",
+"severity": null,
+"out": "pasta with salad",
+"bristol": null
+},
+{
+"text": "bloating 8",
+"kind": "symptom",
+"severity": 8,
+"out": "bloating 8",
+"bristol": null
+},
+{
+"text": "felt well",
+"kind": "clear",
+"severity": 0,
+"out": "felt well",
+"bristol": null
+},
+{
+"text": "rice at 4",
+"kind": "food",
+"severity": null,
+"out": "rice at 4",
+"bristol": "4"
+},
+{
+"text": "all good but bloating",
+"kind": "symptom",
+"severity": null,
+"out": "all good but bloating",
+"bristol": null
+},
+{
+"text": "eggs",
+"kind": "food",
+"severity": null,
+"out": "eggs",
+"bristol": null
+},
+{
+"text": "pain moderate",
+"kind": "symptom",
+"severity": 5,
+"out": "pain moderate",
+"bristol": null
+},
+{
+"text": "poop a 7-6",
+"kind": "stool",
+"severity": null,
+"out": "poop a 7-6",
+"bristol": "6-7"
+},
+{
+"text": "eggs",
+"kind": "food",
+"severity": null,
+"out": "eggs",
+"bristol": null
+},
+{
+"text": "eggs",
+"kind": "food",
+"severity": null,
+"out": "eggs",
+"bristol": null
+},
+{
+"text": "feeling fine today",
+"kind": "clear",
+"severity": 0,
+"out": "feeling fine today",
+"bristol": null
+},
+{
+"text": "gas awful",
+"kind": "symptom",
+"severity": 9,
+"out": "gas awful",
+"bristol": null
+},
+{
+"text": "noodles, sour beer",
+"kind": "food",
+"severity": null,
+"out": "noodles, sour beer",
+"bristol": null
+},
+{
+"text": "no symptoms today",
+"kind": "clear",
+"severity": 0,
+"out": "no symptoms today",
+"bristol": null
+},
+{
+"text": "bloating awful",
+"kind": "symptom",
+"severity": 9,
+"out": "bloating awful",
+"bristol": null
+},
+{
+"text": "apple at 8",
+"kind": "food",
+"severity": null,
+"out": "apple at 8",
+"bristol": null
+},
+{
+"text": "rice, yogurt",
+"kind": "food",
+"severity": null,
+"out": "rice, yogurt",
+"bristol": null
+},
+{
+"text": "cheese pizza with noodles",
+"kind": "food",
+"severity": null,
+"out": "cheese pizza with noodles",
+"bristol": null
+},
+{
+"text": "tense bad",
+"kind": "symptom",
+"severity": 7,
+"out": "tense bad",
+"bristol": null
+},
+{
+"text": "symptom free today",
+"kind": "clear",
+"severity": 0,
+"out": "symptom free today",
+"bristol": null
+},
+{
+"text": "gas",
+"kind": "symptom",
+"severity": null,
+"out": "gas",
+"bristol": null
+},
+{
+"text": "burger at 2",
+"kind": "food",
+"severity": null,
+"out": "burger at 2",
+"bristol": "2"
+},
+{
+"text": "all good",
+"kind": "clear",
+"severity": 0,
+"out": "all good",
+"bristol": null
+},
+{
+"text": "all good",
+"kind": "clear",
+"severity": 0,
+"out": "all good",
+"bristol": null
+},
+{
+"text": "beans, garlic bread",
+"kind": "food",
+"severity": null,
+"out": "beans, garlic bread",
+"bristol": null
+},
+{
+"text": "feeling fine",
+"kind": "clear",
+"severity": 0,
+"out": "feeling fine",
+"bristol": null
+},
+{
+"text": "poop a 2",
+"kind": "stool",
+"severity": null,
+"out": "poop a 2",
+"bristol": "2"
+},
+{
+"text": "bloating bad",
+"kind": "symptom",
+"severity": 7,
+"out": "bloating bad",
+"bristol": null
+},
+{
+"text": "banana",
+"kind": "food",
+"severity": null,
+"out": "banana",
+"bristol": null
+},
+{
+"text": "cheese pizza, salad",
+"kind": "food",
+"severity": null,
+"out": "cheese pizza, salad",
+"bristol": null
+},
+{
+"text": "oatmeal, coffee",
+"kind": "food",
+"severity": null,
+"out": "oatmeal, coffee",
+"bristol": null
+},
+{
+"text": "sour beer, apple",
+"kind": "food",
+"severity": null,
+"out": "sour beer, apple",
+"bristol": null
+},
+{
+"text": "garlic bread, toast",
+"kind": "food",
+"severity": null,
+"out": "garlic bread, toast",
+"bristol": null
+},
+{
+"text": "bm a 5-1",
+"kind": "stool",
+"severity": null,
+"out": "bm a 5-1",
+"bristol": "1-5"
+},
+{
+"text": "sour beer at 11",
+"kind": "food",
+"severity": null,
+"out": "sour beer at 11",
+"bristol": null
+},
+{
+"text": "foggy bad",
+"kind": "symptom",
+"severity": 7,
+"out": "foggy bad",
+"bristol": null
+},
+{
+"text": "bloating really bad",
+"kind": "symptom",
+"severity": 7,
+"out": "bloating really bad",
+"bristol": null
+},
+{
+"text": "pasta",
+"kind": "food",
+"severity": null,
+"out": "pasta",
+"bristol": null
+},
+{
+"text": "gas bad",
+"kind": "symptom",
+"severity": 7,
+"out": "gas bad",
+"bristol": null
+},
+{
+"text": "stool a 2",
+"kind": "stool",
+"severity": null,
+"out": "stool a 2",
+"bristol": "2"
+},
+{
+"text": "salad at 4",
+"kind": "food",
+"severity": null,
+"out": "salad at 4",
+"bristol": "4"
+},
+{
+"text": "coffee",
+"kind": "food",
+"severity": null,
+"out": "coffee",
+"bristol": null
+},
+{
+"text": "foggy 0/10",
+"kind": "symptom",
+"severity": 0,
+"out": "foggy 0/10",
+"bristol": null
+},
+{
+"text": "salad",
+"kind": "food",
+"severity": null,
+"out": "salad",
+"bristol": null
+},
+{
+"text": "oatmeal",
+"kind": "food",
+"severity": null,
+"out": "oatmeal",
+"bristol": null
+},
+{
+"text": "pain moderate",
+"kind": "symptom",
+"severity": 5,
+"out": "pain moderate",
+"bristol": null
+},
+{
+"text": "headache really bad",
+"kind": "symptom",
+"severity": 7,
+"out": "headache really bad",
+"bristol": null
+},
+{
+"text": "gas bad",
+"kind": "symptom",
+"severity": 7,
+"out": "gas bad",
+"bristol": null
+},
+{
+"text": "felt well but foggy",
+"kind": "symptom",
+"severity": null,
+"out": "felt well but foggy",
+"bristol": null
+},
+{
+"text": "cramps really bad",
+"kind": "symptom",
+"severity": 7,
+"out": "cramps really bad",
+"bristol": null
+},
+{
+"text": "all good",
+"kind": "clear",
+"severity": 0,
+"out": "all good",
+"bristol": null
+},
+{
+"text": "symptom free but nausea",
+"kind": "symptom",
+"severity": null,
+"out": "symptom free but nausea",
+"bristol": null
+},
+{
+"text": "banana, salad",
+"kind": "food",
+"severity": null,
+"out": "banana, salad",
+"bristol": null
+},
+{
+"text": "banana with oatmeal",
+"kind": "food",
+"severity": null,
+"out": "banana with oatmeal",
+"bristol": null
+},
+{
+"text": "noodles, oatmeal",
+"kind": "food",
+"severity": null,
+"out": "noodles, oatmeal",
+"bristol": null
+},
+{
+"text": "headache",
+"kind": "symptom",
+"severity": null,
+"out": "headache",
+"bristol": null
+},
+{
+"text": "coffee with burger",
+"kind": "food",
+"severity": null,
+"out": "coffee with burger",
+"bristol": null
+},
+{
+"text": "feeling fine",
+"kind": "clear",
+"severity": 0,
+"out": "feeling fine",
+"bristol": null
+},
+{
+"text": "bristol 6-4",
+"kind": "stool",
+"severity": null,
+"out": "bristol 6-4",
+"bristol": "4-6"
+},
+{
+"text": "eggs",
+"kind": "food",
+"severity": null,
+"out": "eggs",
+"bristol": null
+},
+{
+"text": "no symptoms but gas",
+"kind": "symptom",
+"severity": null,
+"out": "no symptoms but gas",
+"bristol": null
+},
+{
+"text": "gas awful",
+"kind": "symptom",
+"severity": 9,
+"out": "gas awful",
+"bristol": null
+},
+{
+"text": "tense 9",
+"kind": "symptom",
+"severity": 9,
+"out": "tense 9",
+"bristol": null
+},
+{
+"text": "tense moderate",
+"kind": "symptom",
+"severity": 5,
+"out": "tense moderate",
+"bristol": null
+},
+{
+"text": "cheese pizza, eggs",
+"kind": "food",
+"severity": null,
+"out": "cheese pizza, eggs",
+"bristol": null
+},
+{
+"text": "salad",
+"kind": "food",
+"severity": null,
+"out": "salad",
+"bristol": null
+},
+{
+"text": "yogurt with rice",
+"kind": "food",
+"severity": null,
+"out": "yogurt with rice",
+"bristol": null
+},
+{
+"text": "bm a 7",
+"kind": "stool",
+"severity": null,
+"out": "bm a 7",
+"bristol": "7"
+},
+{
+"text": "salad, apple",
+"kind": "food",
+"severity": null,
+"out": "salad, apple",
+"bristol": null
+},
+{
+"text": "cheese pizza with oatmeal",
+"kind": "food",
+"severity": null,
+"out": "cheese pizza with oatmeal",
+"bristol": null
+},
+{
+"text": "foggy awful",
+"kind": "symptom",
+"severity": 9,
+"out": "foggy awful",
+"bristol": null
+},
+{
+"text": "headache awful",
+"kind": "symptom",
+"severity": 9,
+"out": "headache awful",
+"bristol": null
+},
+{
+"text": "apple at 3",
+"kind": "food",
+"severity": null,
+"out": "apple at 3",
+"bristol": "3"
+},
+{
+"text": "reflux 11",
+"kind": "symptom",
+"severity": null,
+"out": "reflux 11",
+"bristol": null
+},
+{
+"text": "beans with salad",
+"kind": "food",
+"severity": null,
+"out": "beans with salad",
+"bristol": null
+},
+{
+"text": "cramps 2",
+"kind": "symptom",
+"severity": 2,
+"out": "cramps 2",
+"bristol": "2"
+},
+{
+"text": "felt well",
+"kind": "clear",
+"severity": 0,
+"out": "felt well",
+"bristol": null
+},
+{
+"text": "gas moderate",
+"kind": "symptom",
+"severity": 5,
+"out": "gas moderate",
+"bristol": null
+},
+{
+"text": "gas 8/10",
+"kind": "symptom",
+"severity": 8,
+"out": "gas 8/10",
+"bristol": null
+},
+{
+"text": "foggy awful",
+"kind": "symptom",
+"severity": 9,
+"out": "foggy awful",
+"bristol": null
+},
+{
+"text": "cramps awful",
+"kind": "symptom",
+"severity": 9,
+"out": "cramps awful",
+"bristol": null
+},
+{
+"text": "bloating 2/10",
+"kind": "symptom",
+"severity": 2,
+"out": "bloating 2/10",
+"bristol": "2"
+},
+{
+"text": "bristol type 2/5",
+"kind": "stool",
+"severity": null,
+"out": "bristol type 2/5",
+"bristol": "2-5"
+},
+{
+"text": "stool a 2/7",
+"kind": "stool",
+"severity": null,
+"out": "stool a 2/7",
+"bristol": "2-7"
+},
+{
+"text": "nausea moderate",
+"kind": "symptom",
+"severity": 5,
+"out": "nausea moderate",
+"bristol": null
+},
+{
+"text": "bm type 6/6",
+"kind": "stool",
+"severity": null,
+"out": "bm type 6/6",
+"bristol": "6"
+},
+{
+"text": "stool type 3/7",
+"kind": "stool",
+"severity": null,
+"out": "stool type 3/7",
+"bristol": "3-7"
+},
+{
+"text": "tense really bad",
+"kind": "symptom",
+"severity": 7,
+"out": "tense really bad",
+"bristol": null
+},
+{
+"text": "feeling fine but pain",
+"kind": "symptom",
+"severity": null,
+"out": "feeling fine but pain",
+"bristol": null
+},
+{
+"text": "foggy 4",
+"kind": "symptom",
+"severity": 4,
+"out": "foggy 4",
+"bristol": "4"
+},
+{
+"text": "pooped a 7-5",
+"kind": "stool",
+"severity": null,
+"out": "pooped a 7-5",
+"bristol": "5-7"
+},
+{
+"text": "reflux bad",
+"kind": "symptom",
+"severity": 7,
+"out": "reflux bad",
+"bristol": null
+},
+{
+"text": "nausea awful",
+"kind": "symptom",
+"severity": 9,
+"out": "nausea awful",
+"bristol": null
+},
+{
+"text": "cramps 11",
+"kind": "symptom",
+"severity": null,
+"out": "cramps 11",
+"bristol": null
+},
+{
+"text": "cramps 1",
+"kind": "symptom",
+"severity": 1,
+"out": "cramps 1",
+"bristol": "1"
+},
+{
+"text": "foggy 10",
+"kind": "symptom",
+"severity": 10,
+"out": "foggy 10",
+"bristol": null
+},
+{
+"text": "reflux bad",
+"kind": "symptom",
+"severity": 7,
+"out": "reflux bad",
+"bristol": null
+},
+{
+"text": "pasta with toast",
+"kind": "food",
+"severity": null,
+"out": "pasta with toast",
+"bristol": null
+},
+{
+"text": "bloating 8/10",
+"kind": "symptom",
+"severity": 8,
+"out": "bloating 8/10",
+"bristol": null
+},
+{
+"text": "sour beer with cheese pizza",
+"kind": "food",
+"severity": null,
+"out": "sour beer with cheese pizza",
+"bristol": null
+},
+{
+"text": "nausea bad",
+"kind": "symptom",
+"severity": 7,
+"out": "nausea bad",
+"bristol": null
+},
+{
+"text": "burger, apple",
+"kind": "food",
+"severity": null,
+"out": "burger, apple",
+"bristol": null
+},
+{
+"text": "salad at 2",
+"kind": "food",
+"severity": null,
+"out": "salad at 2",
+"bristol": "2"
+},
+{
+"text": "poop 3-1",
+"kind": "stool",
+"severity": null,
+"out": "poop 3-1",
+"bristol": "1-3"
+},
+{
+"text": "pooped 1",
+"kind": "stool",
+"severity": null,
+"out": "pooped 1",
+"bristol": "1"
+},
+{
+"text": "noodles at 6",
+"kind": "food",
+"severity": null,
+"out": "noodles at 6",
+"bristol": "6"
+},
+{
+"text": "gas",
+"kind": "symptom",
+"severity": null,
+"out": "gas",
+"bristol": null
+},
+{
+"text": "cramps moderate",
+"kind": "symptom",
+"severity": 5,
+"out": "cramps moderate",
+"bristol": null
+},
+{
+"text": "pooped 1/5",
+"kind": "stool",
+"severity": null,
+"out": "pooped 1/5",
+"bristol": "1-5"
+},
+{
+"text": "bloating really bad",
+"kind": "symptom",
+"severity": 7,
+"out": "bloating really bad",
+"bristol": null
+},
+{
+"text": "all good",
+"kind": "clear",
+"severity": 0,
+"out": "all good",
+"bristol": null
+},
+{
+"text": "banana at 3",
+"kind": "food",
+"severity": null,
+"out": "banana at 3",
+"bristol": "3"
+},
+{
+"text": "headache mild",
+"kind": "symptom",
+"severity": 3,
+"out": "headache mild",
+"bristol": null
+},
+{
+"text": "yogurt",
+"kind": "food",
+"severity": null,
+"out": "yogurt",
+"bristol": null
+},
+{
+"text": "coffee, coffee",
+"kind": "food",
+"severity": null,
+"out": "coffee, coffee",
+"bristol": null
+},
+{
+"text": "eggs with yogurt",
+"kind": "food",
+"severity": null,
+"out": "eggs with yogurt",
+"bristol": null
+},
+{
+"text": "bloating really bad",
+"kind": "symptom",
+"severity": 7,
+"out": "bloating really bad",
+"bristol": null
+},
+{
+"text": "tense",
+"kind": "symptom",
+"severity": null,
+"out": "tense",
+"bristol": null
+},
+{
+"text": "headache 8/10",
+"kind": "symptom",
+"severity": 8,
+"out": "headache 8/10",
+"bristol": null
+},
+{
+"text": "cramps bad",
+"kind": "symptom",
+"severity": 7,
+"out": "cramps bad",
+"bristol": null
+},
+{
+"text": "toast at 3",
+"kind": "food",
+"severity": null,
+"out": "toast at 3",
+"bristol": "3"
+},
+{
+"text": "pain bad",
+"kind": "symptom",
+"severity": 7,
+"out": "pain bad",
+"bristol": null
+},
+{
+"text": "gas 1/10",
+"kind": "symptom",
+"severity": 1,
+"out": "gas 1/10",
+"bristol": "1"
+},
+{
+"text": "pain really bad",
+"kind": "symptom",
+"severity": 7,
+"out": "pain really bad",
+"bristol": null
+},
+{
+"text": "noodles at 6",
+"kind": "food",
+"severity": null,
+"out": "noodles at 6",
+"bristol": "6"
+},
+{
+"text": "felt well today",
+"kind": "clear",
+"severity": 0,
+"out": "felt well today",
+"bristol": null
+},
+{
+"text": "toast",
+"kind": "food",
+"severity": null,
+"out": "toast",
+"bristol": null
+},
+{
+"text": "bloating really bad",
+"kind": "symptom",
+"severity": 7,
+"out": "bloating really bad",
+"bristol": null
+},
+{
+"text": "noodles, sour beer",
+"kind": "food",
+"severity": null,
+"out": "noodles, sour beer",
+"bristol": null
+},
+{
+"text": "burger",
+"kind": "food",
+"severity": null,
+"out": "burger",
+"bristol": null
+},
+{
+"text": "rice at 7",
+"kind": "food",
+"severity": null,
+"out": "rice at 7",
+"bristol": "7"
+},
+{
+"text": "coffee, pasta",
+"kind": "food",
+"severity": null,
+"out": "coffee, pasta",
+"bristol": null
+},
+{
+"text": "felt well today",
+"kind": "clear",
+"severity": 0,
+"out": "felt well today",
+"bristol": null
+},
+{
+"text": "oatmeal with rice",
+"kind": "food",
+"severity": null,
+"out": "oatmeal with rice",
+"bristol": null
+},
+{
+"text": "reflux really bad",
+"kind": "symptom",
+"severity": 7,
+"out": "reflux really bad",
+"bristol": null
+},
+{
+"text": "salad",
+"kind": "food",
+"severity": null,
+"out": "salad",
+"bristol": null
+},
+{
+"text": "sour beer, cheese pizza",
+"kind": "food",
+"severity": null,
+"out": "sour beer, cheese pizza",
+"bristol": null
+},
+{
+"text": "tense moderate",
+"kind": "symptom",
+"severity": 5,
+"out": "tense moderate",
+"bristol": null
+},
+{
+"text": "oatmeal",
+"kind": "food",
+"severity": null,
+"out": "oatmeal",
+"bristol": null
+},
+{
+"text": "all good",
+"kind": "clear",
+"severity": 0,
+"out": "all good",
+"bristol": null
+},
+{
+"text": "feeling fine",
+"kind": "clear",
+"severity": 0,
+"out": "feeling fine",
+"bristol": null
+},
+{
+"text": "nausea really bad",
+"kind": "symptom",
+"severity": 7,
+"out": "nausea really bad",
+"bristol": null
+},
+{
+"text": "yogurt",
+"kind": "food",
+"severity": null,
+"out": "yogurt",
+"bristol": null
+},
+{
+"text": "pain bad",
+"kind": "symptom",
+"severity": 7,
+"out": "pain bad",
+"bristol": null
+},
+{
+"text": "all good today",
+"kind": "clear",
+"severity": 0,
+"out": "all good today",
+"bristol": null
+},
+{
+"text": "eggs",
+"kind": "food",
+"severity": null,
+"out": "eggs",
+"bristol": null
+},
+{
+"text": "pooped a 6",
+"kind": "stool",
+"severity": null,
+"out": "pooped a 6",
+"bristol": "6"
+},
+{
+"text": "banana at 10",
+"kind": "food",
+"severity": null,
+"out": "banana at 10",
+"bristol": null
+},
+{
+"text": "coffee with yogurt",
+"kind": "food",
+"severity": null,
+"out": "coffee with yogurt",
+"bristol": null
+},
+{
+"text": "no symptoms today",
+"kind": "clear",
+"severity": 0,
+"out": "no symptoms today",
+"bristol": null
+},
+{
+"text": "gas really bad",
+"kind": "symptom",
+"severity": 7,
+"out": "gas really bad",
+"bristol": null
+},
+{
+"text": "salad at 5",
+"kind": "food",
+"severity": null,
+"out": "salad at 5",
+"bristol": "5"
+},
+{
+"text": "sour beer, eggs",
+"kind": "food",
+"severity": null,
+"out": "sour beer, eggs",
+"bristol": null
+},
+{
+"text": "pain 4/10",
+"kind": "symptom",
+"severity": 4,
+"out": "pain 4/10",
+"bristol": "4"
+},
+{
+"text": "burger with salad",
+"kind": "food",
+"severity": null,
+"out": "burger with salad",
+"bristol": null
+},
+{
+"text": "headache",
+"kind": "symptom",
+"severity": null,
+"out": "headache",
+"bristol": null
+},
+{
+"text": "coffee, burger",
+"kind": "food",
+"severity": null,
+"out": "coffee, burger",
+"bristol": null
+},
+{
+"text": "cramps awful",
+"kind": "symptom",
+"severity": 9,
+"out": "cramps awful",
+"bristol": null
+},
+{
+"text": "banana",
+"kind": "food",
+"severity": null,
+"out": "banana",
+"bristol": null
+},
+{
+"text": "headache 0",
+"kind": "symptom",
+"severity": 0,
+"out": "headache 0",
+"bristol": null
+},
+{
+"text": "reflux awful",
+"kind": "symptom",
+"severity": 9,
+"out": "reflux awful",
+"bristol": null
+},
+{
+"text": "banana, beans",
+"kind": "food",
+"severity": null,
+"out": "banana, beans",
+"bristol": null
+},
+{
+"text": "tense really bad",
+"kind": "symptom",
+"severity": 7,
+"out": "tense really bad",
+"bristol": null
+},
+{
+"text": "sour beer, apple",
+"kind": "food",
+"severity": null,
+"out": "sour beer, apple",
+"bristol": null
+},
+{
+"text": "symptom free today",
+"kind": "clear",
+"severity": 0,
+"out": "symptom free today",
+"bristol": null
+},
+{
+"text": "symptom free today",
+"kind": "clear",
+"severity": 0,
+"out": "symptom free today",
+"bristol": null
+},
+{
+"text": "gas 9/10",
+"kind": "symptom",
+"severity": 9,
+"out": "gas 9/10",
+"bristol": null
+},
+{
+"text": "no symptoms but reflux",
+"kind": "symptom",
+"severity": null,
+"out": "no symptoms but reflux",
+"bristol": null
+},
+{
+"text": "felt well but nausea",
+"kind": "symptom",
+"severity": null,
+"out": "felt well but nausea",
+"bristol": null
+},
+{
+"text": "headache mild",
+"kind": "symptom",
+"severity": 3,
+"out": "headache mild",
+"bristol": null
+},
+{
+"text": "bm type 7-1",
+"kind": "stool",
+"severity": null,
+"out": "bm type 7-1",
+"bristol": "1-7"
+},
+{
+"text": "rice, sour beer",
+"kind": "food",
+"severity": null,
+"out": "rice, sour beer",
+"bristol": null
+},
+{
+"text": "bm a 6",
+"kind": "stool",
+"severity": null,
+"out": "bm a 6",
+"bristol": "6"
+},
+{
+"text": "bm type 6",
+"kind": "stool",
+"severity": null,
+"out": "bm type 6",
+"bristol": "6"
+},
+{
+"text": "rice with pasta",
+"kind": "food",
+"severity": null,
+"out": "rice with pasta",
+"bristol": null
+},
+{
+"text": "foggy 4/10",
+"kind": "symptom",
+"severity": 4,
+"out": "foggy 4/10",
+"bristol": "4"
+},
+{
+"text": "gas mild",
+"kind": "symptom",
+"severity": 3,
+"out": "gas mild",
+"bristol": null
+},
+{
+"text": "bm a 5-4",
+"kind": "stool",
+"severity": null,
+"out": "bm a 5-4",
+"bristol": "4-5"
+},
+{
+"text": "rice, salad",
+"kind": "food",
+"severity": null,
+"out": "rice, salad",
+"bristol": null
+},
+{
+"text": "cramps mild",
+"kind": "symptom",
+"severity": 3,
+"out": "cramps mild",
+"bristol": null
+},
+{
+"text": "salad with noodles",
+"kind": "food",
+"severity": null,
+"out": "salad with noodles",
+"bristol": null
+},
+{
+"text": "yogurt",
+"kind": "food",
+"severity": null,
+"out": "yogurt",
+"bristol": null
+},
+{
+"text": "cheese pizza with beans",
+"kind": "food",
+"severity": null,
+"out": "cheese pizza with beans",
+"bristol": null
+},
+{
+"text": "reflux 0/10",
+"kind": "symptom",
+"severity": 0,
+"out": "reflux 0/10",
+"bristol": null
+},
+{
+"text": "bloating",
+"kind": "symptom",
+"severity": null,
+"out": "bloating",
+"bristol": null
+},
+{
+"text": "headache 5/10",
+"kind": "symptom",
+"severity": 5,
+"out": "headache 5/10",
+"bristol": "5"
+},
+{
+"text": "gas 8",
+"kind": "symptom",
+"severity": 8,
+"out": "gas 8",
+"bristol": null
+},
+{
+"text": "headache mild",
+"kind": "symptom",
+"severity": 3,
+"out": "headache mild",
+"bristol": null
+},
+{
+"text": "bm type 3/7",
+"kind": "stool",
+"severity": null,
+"out": "bm type 3/7",
+"bristol": "3-7"
+},
+{
+"text": "feeling fine but gas",
+"kind": "symptom",
+"severity": null,
+"out": "feeling fine but gas",
+"bristol": null
+},
+{
+"text": "garlic bread",
+"kind": "food",
+"severity": null,
+"out": "garlic bread",
+"bristol": null
+},
+{
+"text": "banana, toast",
+"kind": "food",
+"severity": null,
+"out": "banana, toast",
+"bristol": null
+},
+{
+"text": "noodles, toast",
+"kind": "food",
+"severity": null,
+"out": "noodles, toast",
+"bristol": null
+},
+{
+"text": "pasta with oatmeal",
+"kind": "food",
+"severity": null,
+"out": "pasta with oatmeal",
+"bristol": null
+},
+{
+"text": "cramps bad",
+"kind": "symptom",
+"severity": 7,
+"out": "cramps bad",
+"bristol": null
+},
+{
+"text": "cramps",
+"kind": "symptom",
+"severity": null,
+"out": "cramps",
+"bristol": null
+},
+{
+"text": "gas 8/10",
+"kind": "symptom",
+"severity": 8,
+"out": "gas 8/10",
+"bristol": null
+},
+{
+"text": "bloating 0",
+"kind": "symptom",
+"severity": 0,
+"out": "bloating 0",
+"bristol": null
+},
+{
+"text": "symptom free today",
+"kind": "clear",
+"severity": 0,
+"out": "symptom free today",
+"bristol": null
+},
+{
+"text": "poop a 1",
+"kind": "stool",
+"severity": null,
+"out": "poop a 1",
+"bristol": "1"
+},
+{
+"text": "headache really bad",
+"kind": "symptom",
+"severity": 7,
+"out": "headache really bad",
+"bristol": null
+},
+{
+"text": "stool 5",
+"kind": "stool",
+"severity": null,
+"out": "stool 5",
+"bristol": "5"
+},
+{
+"text": "bloating",
+"kind": "symptom",
+"severity": null,
+"out": "bloating",
+"bristol": null
+},
+{
+"text": "nausea bad",
+"kind": "symptom",
+"severity": 7,
+"out": "nausea bad",
+"bristol": null
+},
+{
+"text": "apple with rice",
+"kind": "food",
+"severity": null,
+"out": "apple with rice",
+"bristol": null
+},
+{
+"text": "garlic bread at 4",
+"kind": "food",
+"severity": null,
+"out": "garlic bread at 4",
+"bristol": "4"
+},
+{
+"text": "no symptoms",
+"kind": "clear",
+"severity": 0,
+"out": "no symptoms",
+"bristol": null
+},
+{
+"text": "bristol type 4-4",
+"kind": "stool",
+"severity": null,
+"out": "bristol type 4-4",
+"bristol": "4"
+},
+{
+"text": "no symptoms but nausea",
+"kind": "symptom",
+"severity": null,
+"out": "no symptoms but nausea",
+"bristol": null
+},
+{
+"text": "poop type 6",
+"kind": "stool",
+"severity": null,
+"out": "poop type 6",
+"bristol": "6"
+},
+{
+"text": "nausea awful",
+"kind": "symptom",
+"severity": 9,
+"out": "nausea awful",
+"bristol": null
+},
+{
+"text": "stool a 1/1",
+"kind": "stool",
+"severity": null,
+"out": "stool a 1/1",
+"bristol": "1"
+},
+{
+"text": "sour beer, noodles",
+"kind": "food",
+"severity": null,
+"out": "sour beer, noodles",
+"bristol": null
+},
+{
+"text": "pain awful",
+"kind": "symptom",
+"severity": 9,
+"out": "pain awful",
+"bristol": null
+},
+{
+"text": "symptom free today",
+"kind": "clear",
+"severity": 0,
+"out": "symptom free today",
+"bristol": null
+},
+{
+"text": "felt well but foggy",
+"kind": "symptom",
+"severity": null,
+"out": "felt well but foggy",
+"bristol": null
+},
+{
+"text": "no symptoms",
+"kind": "clear",
+"severity": 0,
+"out": "no symptoms",
+"bristol": null
+},
+{
+"text": "pasta, garlic bread",
+"kind": "food",
+"severity": null,
+"out": "pasta, garlic bread",
+"bristol": null
+},
+{
+"text": "eggs, beans",
+"kind": "food",
+"severity": null,
+"out": "eggs, beans",
+"bristol": null
+},
+{
+"text": "felt well but foggy",
+"kind": "symptom",
+"severity": null,
+"out": "felt well but foggy",
+"bristol": null
+},
+{
+"text": "yogurt at 6",
+"kind": "food",
+"severity": null,
+"out": "yogurt at 6",
+"bristol": "6"
+},
+{
+"text": "all good but nausea",
+"kind": "symptom",
+"severity": null,
+"out": "all good but nausea",
+"bristol": null
+},
+{
+"text": "foggy bad",
+"kind": "symptom",
+"severity": 7,
+"out": "foggy bad",
+"bristol": null
+},
+{
+"text": "headache really bad",
+"kind": "symptom",
+"severity": 7,
+"out": "headache really bad",
+"bristol": null
+},
+{
+"text": "bm type 2-2",
+"kind": "stool",
+"severity": null,
+"out": "bm type 2-2",
+"bristol": "2"
+},
+{
+"text": "felt well today",
+"kind": "clear",
+"severity": 0,
+"out": "felt well today",
+"bristol": null
+},
+{
+"text": "bm type 3-3",
+"kind": "stool",
+"severity": null,
+"out": "bm type 3-3",
+"bristol": "3"
+}
+],
+"scenarios": [
+{
+"entries": [
+{
+"ts": "2026-08-01T18:07:00Z",
+"kind": "food",
+"text": "sour beer burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-02T10:57:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 4",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-02T10:44:00Z",
+"kind": "food",
+"text": "apple salad rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-02T10:01:00Z",
+"kind": "food",
+"text": "toast eggs beans",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-02T23:46:00Z",
+"kind": "food",
+"text": "eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-03T17:43:00Z",
+"kind": "food",
+"text": "salad eggs",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-08-04T03:59:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-03T13:47:00Z",
+"kind": "food",
+"text": "banana yogurt sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-05T01:54:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-08-04T11:30:00Z",
+"kind": "food",
+"text": "banana burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-05T03:56:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-05T15:33:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-08T22:41:00Z",
+"kind": "food",
+"text": "apple toast garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-09T03:14:00Z",
+"kind": "food",
+"text": "noodles apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-09T03:38:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-08-09T02:51:00Z",
+"kind": "food",
+"text": "beans sour beer toast",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-08T21:36:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 4",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-09T10:34:00Z",
+"kind": "food",
+"text": "burger apple salad",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-08-09T17:40:00Z",
+"kind": "food",
+"text": "cheese pizza banana rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-09T18:02:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-10T10:48:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-10T15:22:00Z",
+"kind": "food",
+"text": "cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-10T15:42:00Z",
+"kind": "food",
+"text": "salad apple noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-11T01:07:00Z",
+"kind": "food",
+"text": "burger beans",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-12T02:13:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-11T10:14:00Z",
+"kind": "food",
+"text": "rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-11T15:28:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-13T02:28:00Z",
+"kind": "food",
+"text": "toast beans burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-12T20:42:00Z",
+"kind": "symptom",
+"text": "headache",
+"severity": 5,
+"removed": false
+},
+{
+"ts": "2026-08-12T11:19:00Z",
+"kind": "food",
+"text": "salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-12T19:47:00Z",
+"kind": "food",
+"text": "yogurt pasta toast",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-12T11:37:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-13T02:02:00Z",
+"kind": "food",
+"text": "oatmeal sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-13T16:31:00Z",
+"kind": "food",
+"text": "garlic bread coffee yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-13T20:39:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-08-13T16:54:00Z",
+"kind": "food",
+"text": "coffee cheese pizza beans",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-13T13:53:00Z",
+"kind": "food",
+"text": "noodles eggs banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-14T01:49:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-14T14:10:00Z",
+"kind": "food",
+"text": "beans coffee garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-15T21:21:00Z",
+"kind": "food",
+"text": "apple banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-16T01:08:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-08-15T12:24:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 7",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-16T22:04:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-18T03:59:00Z",
+"kind": "food",
+"text": "oatmeal garlic bread",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-08-17T19:00:00Z",
+"kind": "symptom",
+"text": "cramps",
+"severity": 7,
+"removed": false
+},
+{
+"ts": "2026-08-17T11:12:00Z",
+"kind": "food",
+"text": "banana pasta rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-18T13:27:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-08-19T03:58:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-19T16:41:00Z",
+"kind": "food",
+"text": "toast",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-20T20:28:00Z",
+"kind": "food",
+"text": "pasta rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-21T00:07:00Z",
+"kind": "food",
+"text": "sour beer burger cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-21T03:13:00Z",
+"kind": "food",
+"text": "noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-20T18:05:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-20T20:14:00Z",
+"kind": "food",
+"text": "rice cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-20T19:15:00Z",
+"kind": "food",
+"text": "pasta oatmeal eggs",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-08-21T18:35:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-22T21:31:00Z",
+"kind": "food",
+"text": "oatmeal",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-22T20:04:00Z",
+"kind": "food",
+"text": "cheese pizza pasta garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-22T14:52:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-23T19:08:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-23T11:49:00Z",
+"kind": "food",
+"text": "beans pasta coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-23T15:03:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-24T00:51:00Z",
+"kind": "food",
+"text": "eggs banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-23T10:25:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-25T10:03:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-25T18:53:00Z",
+"kind": "food",
+"text": "garlic bread pasta salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-26T01:00:00Z",
+"kind": "food",
+"text": "eggs sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-25T17:15:00Z",
+"kind": "food",
+"text": "sour beer oatmeal noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-26T18:41:00Z",
+"kind": "food",
+"text": "noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-26T16:19:00Z",
+"kind": "food",
+"text": "noodles pasta",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-27T00:38:00Z",
+"kind": "food",
+"text": "garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-26T18:27:00Z",
+"kind": "food",
+"text": "rice apple burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-26T21:24:00Z",
+"kind": "food",
+"text": "rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-26T12:51:00Z",
+"kind": "food",
+"text": "yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-28T12:28:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-28T22:51:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-08-28T20:28:00Z",
+"kind": "food",
+"text": "beans rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-29T03:26:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-08-28T18:15:00Z",
+"kind": "food",
+"text": "toast oatmeal yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-30T17:53:00Z",
+"kind": "food",
+"text": "salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-30T16:17:00Z",
+"kind": "food",
+"text": "eggs garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-30T15:34:00Z",
+"kind": "food",
+"text": "oatmeal garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-30T22:13:00Z",
+"kind": "food",
+"text": "toast",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-30T10:34:00Z",
+"kind": "food",
+"text": "coffee rice yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-01T02:43:00Z",
+"kind": "food",
+"text": "burger toast rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-01T00:22:00Z",
+"kind": "food",
+"text": "burger garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-01T01:07:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-31T18:40:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 7",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-02T02:26:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-09-01T19:44:00Z",
+"kind": "food",
+"text": "beans cheese pizza yogurt",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-09-01T22:37:00Z",
+"kind": "food",
+"text": "burger banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-01T12:31:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-02T10:26:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 7",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-02T18:54:00Z",
+"kind": "food",
+"text": "toast",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-02T18:51:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-04T01:10:00Z",
+"kind": "food",
+"text": "yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-03T23:04:00Z",
+"kind": "food",
+"text": "eggs toast pasta",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-03T15:44:00Z",
+"kind": "food",
+"text": "yogurt salad coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-04T18:04:00Z",
+"kind": "food",
+"text": "noodles apple yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-04T11:10:00Z",
+"kind": "food",
+"text": "yogurt cheese pizza salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-04T22:35:00Z",
+"kind": "food",
+"text": "yogurt banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-05T17:54:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 7",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-05T20:59:00Z",
+"kind": "food",
+"text": "yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-05T15:55:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-06T14:38:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-09-06T15:08:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 4",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-06T22:15:00Z",
+"kind": "food",
+"text": "salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-06T17:25:00Z",
+"kind": "food",
+"text": "cheese pizza",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-09-06T10:56:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 4",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-07T00:21:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-09T00:24:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-09T00:35:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-09T01:37:00Z",
+"kind": "food",
+"text": "pasta",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-09-08T10:54:00Z",
+"kind": "food",
+"text": "salad eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-09T14:50:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": true
+},
+{
+"ts": "2026-09-09T14:56:00Z",
+"kind": "symptom",
+"text": "gas",
+"severity": 7,
+"removed": false
+},
+{
+"ts": "2026-09-10T00:41:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-09-09T11:33:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-09T13:27:00Z",
+"kind": "food",
+"text": "sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-09T18:43:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-10T18:16:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-10T15:22:00Z",
+"kind": "food",
+"text": "rice eggs cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-11T03:12:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-10T18:47:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-10T13:09:00Z",
+"kind": "food",
+"text": "banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-10T11:40:00Z",
+"kind": "food",
+"text": "sour beer yogurt cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-12T03:02:00Z",
+"kind": "food",
+"text": "garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-12T00:01:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-14T18:20:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 4",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-14T19:06:00Z",
+"kind": "food",
+"text": "beans",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-14T20:32:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-14T14:41:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-15T02:34:00Z",
+"kind": "food",
+"text": "cheese pizza oatmeal",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-15T02:20:00Z",
+"kind": "food",
+"text": "coffee salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-16T03:20:00Z",
+"kind": "food",
+"text": "noodles coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-16T02:32:00Z",
+"kind": "food",
+"text": "coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-15T20:50:00Z",
+"kind": "food",
+"text": "eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-16T01:29:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-09-15T22:52:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-15T11:08:00Z",
+"kind": "food",
+"text": "yogurt garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-16T21:51:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 4",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-16T20:34:00Z",
+"kind": "food",
+"text": "coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-16T17:36:00Z",
+"kind": "food",
+"text": "cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-17T11:51:00Z",
+"kind": "food",
+"text": "yogurt noodles rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-17T12:40:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 7",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-17T16:41:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-17T10:37:00Z",
+"kind": "food",
+"text": "salad oatmeal",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-18T01:55:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-18T16:51:00Z",
+"kind": "food",
+"text": "yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-18T10:47:00Z",
+"kind": "food",
+"text": "sour beer rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-19T02:50:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-19T00:00:00Z",
+"kind": "food",
+"text": "toast yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-18T19:32:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-20T03:18:00Z",
+"kind": "food",
+"text": "banana salad burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-20T00:19:00Z",
+"kind": "food",
+"text": "coffee yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-19T15:16:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-19T11:23:00Z",
+"kind": "food",
+"text": "toast eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-19T12:54:00Z",
+"kind": "food",
+"text": "eggs coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-19T21:40:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-20T21:09:00Z",
+"kind": "food",
+"text": "cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-20T21:54:00Z",
+"kind": "food",
+"text": "banana coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-20T19:47:00Z",
+"kind": "food",
+"text": "banana cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-21T01:13:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 4",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-22T17:46:00Z",
+"kind": "food",
+"text": "coffee apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-22T13:25:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-24T03:13:00Z",
+"kind": "food",
+"text": "rice burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-25T13:16:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 7",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-25T11:50:00Z",
+"kind": "food",
+"text": "pasta banana beans",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-26T00:18:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 4",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-26T01:06:00Z",
+"kind": "food",
+"text": "beans pasta yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-26T19:55:00Z",
+"kind": "food",
+"text": "beans garlic bread eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-27T01:06:00Z",
+"kind": "food",
+"text": "noodles eggs sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-27T03:40:00Z",
+"kind": "food",
+"text": "apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-26T18:45:00Z",
+"kind": "food",
+"text": "coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-26T23:35:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-27T23:17:00Z",
+"kind": "food",
+"text": "salad coffee apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-27T21:38:00Z",
+"kind": "food",
+"text": "cheese pizza salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-29T00:34:00Z",
+"kind": "food",
+"text": "burger yogurt noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-28T16:20:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-28T14:44:00Z",
+"kind": "food",
+"text": "rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-28T13:14:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-28T23:20:00Z",
+"kind": "food",
+"text": "salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-29T17:17:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-30T02:24:00Z",
+"kind": "food",
+"text": "noodles pasta",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-29T14:43:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-29T13:19:00Z",
+"kind": "food",
+"text": "rice cheese pizza",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-09-29T14:59:00Z",
+"kind": "food",
+"text": "apple rice burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-29T10:32:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-30T14:38:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-09-30T12:43:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 4",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-01T03:59:00Z",
+"kind": "food",
+"text": "salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-30T11:38:00Z",
+"kind": "food",
+"text": "apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-30T23:17:00Z",
+"kind": "food",
+"text": "yogurt sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-30T14:25:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-02T03:54:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-01T10:39:00Z",
+"kind": "food",
+"text": "coffee pasta rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-01T14:43:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-01T20:23:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-01T22:53:00Z",
+"kind": "food",
+"text": "coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-02T10:34:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-02T14:24:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-02T23:38:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-03T00:03:00Z",
+"kind": "food",
+"text": "toast",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-02T13:37:00Z",
+"kind": "food",
+"text": "noodles yogurt coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-02T21:51:00Z",
+"kind": "food",
+"text": "apple eggs garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-04T13:49:00Z",
+"kind": "food",
+"text": "burger beans noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-04T11:39:00Z",
+"kind": "food",
+"text": "noodles coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-05T17:40:00Z",
+"kind": "symptom",
+"text": "cramps",
+"severity": 6,
+"removed": false
+},
+{
+"ts": "2026-10-05T15:34:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-05T13:37:00Z",
+"kind": "food",
+"text": "garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-05T15:25:00Z",
+"kind": "symptom",
+"text": "pain",
+"severity": 6,
+"removed": false
+},
+{
+"ts": "2026-10-06T00:47:00Z",
+"kind": "food",
+"text": "beans sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-06T03:07:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 7",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-07T12:11:00Z",
+"kind": "food",
+"text": "salad eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-08T18:01:00Z",
+"kind": "food",
+"text": "apple yogurt noodles",
+"severity": null,
+"removed": false
+}
+],
+"checks": [
+{
+"now": "2026-08-01T09:00:00Z",
+"pond_start": null,
+"color": "green",
+"hours": -1641.0166666666667,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "not enough yet",
+"key": "unknown",
+"average": null,
+"logged_days": 1,
+"trend": null
+},
+"today_count": 1,
+"today_food": 1,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.042735042735042736,
+"items": []
+}
+},
+{
+"now": "2026-08-02T10:00:00Z",
+"pond_start": null,
+"color": "green",
+"hours": -1616.0166666666667,
+"stage": 0,
+"points": 1.0,
+"to_next": 2.0,
+"control": {
+"label": "not enough yet",
+"key": "unknown",
+"average": null,
+"logged_days": 2,
+"trend": null
+},
+"today_count": 4,
+"today_food": 3,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.042735042735042736,
+"items": []
+}
+},
+{
+"now": "2026-08-04T12:00:00Z",
+"pond_start": null,
+"color": "green",
+"hours": -1566.0166666666667,
+"stage": 1,
+"points": 3.0,
+"to_next": 4.0,
+"control": {
+"label": "under control",
+"key": "good",
+"average": 0.0,
+"logged_days": 4,
+"trend": null
+},
+"today_count": 3,
+"today_food": 1,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.042735042735042736,
+"items": []
+}
+},
+{
+"now": "2026-10-10T01:00:00Z",
+"pond_start": null,
+"color": "yellow",
+"hours": 30.983333333333334,
+"stage": 5,
+"points": 48.0,
+"to_next": null,
+"control": {
+"label": "under control",
+"key": "good",
+"average": 1.5,
+"logged_days": 4,
+"trend": "worse"
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "30 h ago",
+"triggers": {
+"baseline": 0.042735042735042736,
+"items": []
+}
+},
+{
+"now": "2026-10-10T14:00:00Z",
+"pond_start": null,
+"color": "red",
+"hours": 43.983333333333334,
+"stage": 5,
+"points": 48.0,
+"to_next": null,
+"control": {
+"label": "under control",
+"key": "good",
+"average": 1.5,
+"logged_days": 4,
+"trend": "worse"
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "43 h ago",
+"triggers": {
+"baseline": 0.042735042735042736,
+"items": []
+}
+},
+{
+"now": "2026-10-12T16:00:00Z",
+"pond_start": null,
+"color": "red",
+"hours": 93.98333333333333,
+"stage": 5,
+"points": 48.0,
+"to_next": null,
+"control": {
+"label": "not enough yet",
+"key": "unknown",
+"average": null,
+"logged_days": 2,
+"trend": null
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "3 days ago",
+"triggers": {
+"baseline": 0.042735042735042736,
+"items": []
+}
+},
+{
+"now": "2026-08-01T09:00:00Z",
+"pond_start": "2026-08-20",
+"color": "green",
+"hours": -1641.0166666666667,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "not enough yet",
+"key": "unknown",
+"average": null,
+"logged_days": 1,
+"trend": null
+},
+"today_count": 1,
+"today_food": 1,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.042735042735042736,
+"items": []
+}
+},
+{
+"now": "2026-08-02T10:00:00Z",
+"pond_start": "2026-08-20",
+"color": "green",
+"hours": -1616.0166666666667,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "not enough yet",
+"key": "unknown",
+"average": null,
+"logged_days": 2,
+"trend": null
+},
+"today_count": 4,
+"today_food": 3,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.042735042735042736,
+"items": []
+}
+},
+{
+"now": "2026-08-04T12:00:00Z",
+"pond_start": "2026-08-20",
+"color": "green",
+"hours": -1566.0166666666667,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "under control",
+"key": "good",
+"average": 0.0,
+"logged_days": 4,
+"trend": null
+},
+"today_count": 3,
+"today_food": 1,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.042735042735042736,
+"items": []
+}
+},
+{
+"now": "2026-10-10T01:00:00Z",
+"pond_start": "2026-08-20",
+"color": "yellow",
+"hours": 30.983333333333334,
+"stage": 5,
+"points": 35.5,
+"to_next": null,
+"control": {
+"label": "under control",
+"key": "good",
+"average": 1.5,
+"logged_days": 4,
+"trend": "worse"
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "30 h ago",
+"triggers": {
+"baseline": 0.042735042735042736,
+"items": []
+}
+},
+{
+"now": "2026-10-10T14:00:00Z",
+"pond_start": "2026-08-20",
+"color": "red",
+"hours": 43.983333333333334,
+"stage": 5,
+"points": 35.5,
+"to_next": null,
+"control": {
+"label": "under control",
+"key": "good",
+"average": 1.5,
+"logged_days": 4,
+"trend": "worse"
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "43 h ago",
+"triggers": {
+"baseline": 0.042735042735042736,
+"items": []
+}
+},
+{
+"now": "2026-10-12T16:00:00Z",
+"pond_start": "2026-08-20",
+"color": "red",
+"hours": 93.98333333333333,
+"stage": 5,
+"points": 35.5,
+"to_next": null,
+"control": {
+"label": "not enough yet",
+"key": "unknown",
+"average": null,
+"logged_days": 2,
+"trend": null
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "3 days ago",
+"triggers": {
+"baseline": 0.042735042735042736,
+"items": []
+}
+}
+]
+},
+{
+"entries": [
+{
+"ts": "2026-08-01T12:05:00Z",
+"kind": "food",
+"text": "salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-02T15:27:00Z",
+"kind": "symptom",
+"text": "pain",
+"severity": 9,
+"removed": false
+},
+{
+"ts": "2026-08-03T11:55:00Z",
+"kind": "food",
+"text": "burger eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-04T02:10:00Z",
+"kind": "symptom",
+"text": "headache",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-03T14:32:00Z",
+"kind": "food",
+"text": "cheese pizza eggs apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-04T21:23:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-04T15:48:00Z",
+"kind": "food",
+"text": "eggs burger yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-04T18:59:00Z",
+"kind": "food",
+"text": "noodles burger apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-06T03:46:00Z",
+"kind": "food",
+"text": "apple cheese pizza banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-05T15:56:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-08-06T01:19:00Z",
+"kind": "food",
+"text": "banana coffee noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-06T02:23:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-08-05T12:50:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-08-06T13:03:00Z",
+"kind": "symptom",
+"text": "cramps",
+"severity": 4,
+"removed": false
+},
+{
+"ts": "2026-08-06T14:54:00Z",
+"kind": "food",
+"text": "rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-06T11:03:00Z",
+"kind": "food",
+"text": "apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-06T12:07:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-08-06T10:23:00Z",
+"kind": "food",
+"text": "cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-06T10:24:00Z",
+"kind": "symptom",
+"text": "headache",
+"severity": 4,
+"removed": false
+},
+{
+"ts": "2026-08-08T13:18:00Z",
+"kind": "food",
+"text": "salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-08T11:57:00Z",
+"kind": "food",
+"text": "coffee apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-08T12:42:00Z",
+"kind": "symptom",
+"text": "foggy",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-08T14:33:00Z",
+"kind": "symptom",
+"text": "pain",
+"severity": 9,
+"removed": false
+},
+{
+"ts": "2026-08-08T20:16:00Z",
+"kind": "food",
+"text": "toast noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-08T14:42:00Z",
+"kind": "food",
+"text": "coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-10T11:15:00Z",
+"kind": "food",
+"text": "pasta coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-10T17:39:00Z",
+"kind": "symptom",
+"text": "gas",
+"severity": 6,
+"removed": false
+},
+{
+"ts": "2026-08-10T18:33:00Z",
+"kind": "symptom",
+"text": "reflux",
+"severity": 7,
+"removed": false
+},
+{
+"ts": "2026-08-11T02:46:00Z",
+"kind": "food",
+"text": "oatmeal",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-08-10T17:06:00Z",
+"kind": "food",
+"text": "eggs apple coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-11T16:46:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 4",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-11T11:56:00Z",
+"kind": "food",
+"text": "cheese pizza eggs rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-12T01:23:00Z",
+"kind": "food",
+"text": "noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-11T21:19:00Z",
+"kind": "food",
+"text": "banana rice eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-11T10:51:00Z",
+"kind": "food",
+"text": "sour beer apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-11T12:00:00Z",
+"kind": "food",
+"text": "salad eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-12T16:07:00Z",
+"kind": "symptom",
+"text": "headache",
+"severity": 8,
+"removed": false
+},
+{
+"ts": "2026-08-12T22:56:00Z",
+"kind": "food",
+"text": "oatmeal",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-12T20:41:00Z",
+"kind": "food",
+"text": "oatmeal",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-08-13T01:49:00Z",
+"kind": "food",
+"text": "sour beer coffee cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-13T18:30:00Z",
+"kind": "food",
+"text": "banana eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-13T19:25:00Z",
+"kind": "food",
+"text": "yogurt sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-13T12:37:00Z",
+"kind": "symptom",
+"text": "pain",
+"severity": 2,
+"removed": false
+},
+{
+"ts": "2026-08-14T12:51:00Z",
+"kind": "food",
+"text": "rice pasta coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-14T20:28:00Z",
+"kind": "food",
+"text": "oatmeal pasta",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-14T23:06:00Z",
+"kind": "food",
+"text": "yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-14T15:29:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-08-15T14:29:00Z",
+"kind": "food",
+"text": "garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-15T15:25:00Z",
+"kind": "food",
+"text": "yogurt beans",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-15T23:45:00Z",
+"kind": "symptom",
+"text": "pain",
+"severity": 9,
+"removed": false
+},
+{
+"ts": "2026-08-16T17:34:00Z",
+"kind": "symptom",
+"text": "bloating",
+"severity": 7,
+"removed": false
+},
+{
+"ts": "2026-08-17T15:52:00Z",
+"kind": "food",
+"text": "beans noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-17T22:57:00Z",
+"kind": "food",
+"text": "garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-17T16:17:00Z",
+"kind": "symptom",
+"text": "foggy",
+"severity": 4,
+"removed": false
+},
+{
+"ts": "2026-08-17T14:00:00Z",
+"kind": "symptom",
+"text": "tense",
+"severity": 5,
+"removed": false
+},
+{
+"ts": "2026-08-18T12:22:00Z",
+"kind": "food",
+"text": "pasta garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-18T20:29:00Z",
+"kind": "food",
+"text": "eggs toast rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-19T18:43:00Z",
+"kind": "symptom",
+"text": "bloating",
+"severity": 3,
+"removed": false
+},
+{
+"ts": "2026-08-19T22:29:00Z",
+"kind": "symptom",
+"text": "tense",
+"severity": 5,
+"removed": false
+},
+{
+"ts": "2026-08-19T10:23:00Z",
+"kind": "food",
+"text": "eggs oatmeal",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-19T19:31:00Z",
+"kind": "symptom",
+"text": "gas",
+"severity": 9,
+"removed": false
+},
+{
+"ts": "2026-08-20T20:41:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-08-20T22:33:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-20T16:25:00Z",
+"kind": "symptom",
+"text": "tense",
+"severity": 3,
+"removed": false
+},
+{
+"ts": "2026-08-22T00:35:00Z",
+"kind": "food",
+"text": "rice sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-21T22:54:00Z",
+"kind": "food",
+"text": "noodles rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-23T00:55:00Z",
+"kind": "food",
+"text": "eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-22T16:59:00Z",
+"kind": "food",
+"text": "oatmeal",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-23T01:12:00Z",
+"kind": "symptom",
+"text": "pain",
+"severity": 3,
+"removed": false
+},
+{
+"ts": "2026-08-22T14:14:00Z",
+"kind": "food",
+"text": "garlic bread beans sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-24T02:37:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-23T19:34:00Z",
+"kind": "symptom",
+"text": "gas",
+"severity": 6,
+"removed": false
+},
+{
+"ts": "2026-08-23T15:16:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-24T01:05:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-23T22:08:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-23T15:22:00Z",
+"kind": "food",
+"text": "banana toast yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-24T22:34:00Z",
+"kind": "food",
+"text": "coffee cheese pizza eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-25T01:06:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-24T20:16:00Z",
+"kind": "food",
+"text": "yogurt rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-24T17:45:00Z",
+"kind": "food",
+"text": "rice cheese pizza eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-24T11:55:00Z",
+"kind": "food",
+"text": "banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-26T02:36:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-25T22:14:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-26T01:31:00Z",
+"kind": "symptom",
+"text": "tense",
+"severity": 2,
+"removed": false
+},
+{
+"ts": "2026-08-27T00:10:00Z",
+"kind": "food",
+"text": "eggs toast rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-26T14:07:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-08-26T15:04:00Z",
+"kind": "food",
+"text": "toast coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-26T21:14:00Z",
+"kind": "food",
+"text": "banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-29T00:03:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 4",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-29T01:08:00Z",
+"kind": "symptom",
+"text": "tense",
+"severity": 9,
+"removed": false
+},
+{
+"ts": "2026-08-28T16:34:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-08-29T02:21:00Z",
+"kind": "symptom",
+"text": "pain",
+"severity": 3,
+"removed": false
+},
+{
+"ts": "2026-08-28T14:34:00Z",
+"kind": "food",
+"text": "eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-28T11:39:00Z",
+"kind": "food",
+"text": "burger salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-30T02:32:00Z",
+"kind": "symptom",
+"text": "cramps",
+"severity": 9,
+"removed": false
+},
+{
+"ts": "2026-08-29T14:40:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-29T16:19:00Z",
+"kind": "food",
+"text": "banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-29T20:51:00Z",
+"kind": "food",
+"text": "oatmeal",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-29T19:33:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-29T14:44:00Z",
+"kind": "food",
+"text": "toast",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-30T16:25:00Z",
+"kind": "symptom",
+"text": "gas",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-31T01:34:00Z",
+"kind": "food",
+"text": "coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-01T14:40:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 7",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-02T19:13:00Z",
+"kind": "food",
+"text": "yogurt banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-02T12:26:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-03T00:19:00Z",
+"kind": "symptom",
+"text": "bloating",
+"severity": 5,
+"removed": false
+},
+{
+"ts": "2026-09-02T20:16:00Z",
+"kind": "food",
+"text": "beans sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-04T00:22:00Z",
+"kind": "food",
+"text": "yogurt salad oatmeal",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-04T00:12:00Z",
+"kind": "symptom",
+"text": "gas",
+"severity": 6,
+"removed": false
+},
+{
+"ts": "2026-09-03T21:38:00Z",
+"kind": "symptom",
+"text": "gas",
+"severity": 3,
+"removed": false
+},
+{
+"ts": "2026-09-04T03:53:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-09-04T20:03:00Z",
+"kind": "food",
+"text": "burger banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-04T23:30:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-05T14:10:00Z",
+"kind": "symptom",
+"text": "foggy",
+"severity": 2,
+"removed": false
+},
+{
+"ts": "2026-09-05T12:31:00Z",
+"kind": "food",
+"text": "coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-06T16:39:00Z",
+"kind": "symptom",
+"text": "tense",
+"severity": 7,
+"removed": false
+},
+{
+"ts": "2026-09-06T16:35:00Z",
+"kind": "food",
+"text": "apple pasta salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-08T00:25:00Z",
+"kind": "food",
+"text": "salad oatmeal",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-10T03:43:00Z",
+"kind": "food",
+"text": "banana beans",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-11T02:23:00Z",
+"kind": "food",
+"text": "pasta noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-10T17:17:00Z",
+"kind": "food",
+"text": "rice pasta",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-10T16:20:00Z",
+"kind": "food",
+"text": "coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-12T03:34:00Z",
+"kind": "food",
+"text": "coffee beans noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-12T18:30:00Z",
+"kind": "food",
+"text": "noodles garlic bread cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-12T13:38:00Z",
+"kind": "food",
+"text": "noodles cheese pizza garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-12T18:51:00Z",
+"kind": "food",
+"text": "coffee toast",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-09-12T23:53:00Z",
+"kind": "symptom",
+"text": "bloating",
+"severity": 9,
+"removed": false
+},
+{
+"ts": "2026-09-12T12:44:00Z",
+"kind": "food",
+"text": "banana beans eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-12T15:10:00Z",
+"kind": "symptom",
+"text": "headache",
+"severity": 6,
+"removed": false
+},
+{
+"ts": "2026-09-13T17:36:00Z",
+"kind": "symptom",
+"text": "cramps",
+"severity": 7,
+"removed": false
+},
+{
+"ts": "2026-09-15T17:14:00Z",
+"kind": "symptom",
+"text": "cramps",
+"severity": 7,
+"removed": false
+},
+{
+"ts": "2026-09-16T17:03:00Z",
+"kind": "food",
+"text": "garlic bread beans sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-16T23:08:00Z",
+"kind": "food",
+"text": "rice salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-17T00:27:00Z",
+"kind": "symptom",
+"text": "headache",
+"severity": 8,
+"removed": false
+},
+{
+"ts": "2026-09-16T14:54:00Z",
+"kind": "food",
+"text": "yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-16T14:40:00Z",
+"kind": "food",
+"text": "yogurt apple eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-16T23:27:00Z",
+"kind": "food",
+"text": "noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-17T10:27:00Z",
+"kind": "food",
+"text": "sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-17T18:15:00Z",
+"kind": "food",
+"text": "noodles yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-18T00:58:00Z",
+"kind": "symptom",
+"text": "headache",
+"severity": 9,
+"removed": false
+},
+{
+"ts": "2026-09-17T21:26:00Z",
+"kind": "food",
+"text": "apple noodles burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-19T00:39:00Z",
+"kind": "food",
+"text": "garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-18T21:58:00Z",
+"kind": "symptom",
+"text": "nausea",
+"severity": 3,
+"removed": false
+},
+{
+"ts": "2026-09-18T15:26:00Z",
+"kind": "food",
+"text": "cheese pizza beans coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-18T22:19:00Z",
+"kind": "symptom",
+"text": "pain",
+"severity": 5,
+"removed": false
+},
+{
+"ts": "2026-09-19T16:29:00Z",
+"kind": "food",
+"text": "noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-20T15:47:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-21T02:38:00Z",
+"kind": "food",
+"text": "apple sour beer rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-20T21:01:00Z",
+"kind": "food",
+"text": "rice",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-09-20T22:30:00Z",
+"kind": "symptom",
+"text": "foggy",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-21T20:10:00Z",
+"kind": "food",
+"text": "sour beer apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-21T12:32:00Z",
+"kind": "food",
+"text": "apple cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-22T17:34:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-22T16:37:00Z",
+"kind": "food",
+"text": "yogurt salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-23T22:49:00Z",
+"kind": "food",
+"text": "cheese pizza burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-25T01:39:00Z",
+"kind": "food",
+"text": "coffee eggs oatmeal",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-24T16:00:00Z",
+"kind": "symptom",
+"text": "headache",
+"severity": 4,
+"removed": false
+},
+{
+"ts": "2026-09-25T10:23:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-09-26T13:04:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-27T00:58:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-26T14:55:00Z",
+"kind": "food",
+"text": "salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-26T10:35:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-27T19:29:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-09-27T20:29:00Z",
+"kind": "symptom",
+"text": "pain",
+"severity": 4,
+"removed": false
+},
+{
+"ts": "2026-09-28T13:54:00Z",
+"kind": "food",
+"text": "toast",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-28T18:06:00Z",
+"kind": "food",
+"text": "coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-28T23:46:00Z",
+"kind": "symptom",
+"text": "bloating",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-28T14:46:00Z",
+"kind": "food",
+"text": "rice pasta noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-28T23:43:00Z",
+"kind": "food",
+"text": "salad coffee rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-28T14:47:00Z",
+"kind": "food",
+"text": "coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-29T19:49:00Z",
+"kind": "symptom",
+"text": "headache",
+"severity": 9,
+"removed": false
+},
+{
+"ts": "2026-09-29T17:36:00Z",
+"kind": "symptom",
+"text": "cramps",
+"severity": 6,
+"removed": false
+},
+{
+"ts": "2026-09-30T23:41:00Z",
+"kind": "symptom",
+"text": "reflux",
+"severity": 6,
+"removed": false
+},
+{
+"ts": "2026-10-01T03:22:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-10-02T22:09:00Z",
+"kind": "food",
+"text": "apple burger coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-02T13:05:00Z",
+"kind": "food",
+"text": "cheese pizza oatmeal burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-04T03:20:00Z",
+"kind": "food",
+"text": "apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-04T13:20:00Z",
+"kind": "food",
+"text": "oatmeal beans",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-10-04T13:47:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-04T20:27:00Z",
+"kind": "food",
+"text": "cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-04T15:25:00Z",
+"kind": "food",
+"text": "salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-05T23:00:00Z",
+"kind": "symptom",
+"text": "reflux",
+"severity": 4,
+"removed": true
+},
+{
+"ts": "2026-10-06T20:54:00Z",
+"kind": "food",
+"text": "yogurt garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-06T17:33:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-10-06T23:31:00Z",
+"kind": "food",
+"text": "salad beans",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-06T23:18:00Z",
+"kind": "symptom",
+"text": "pain",
+"severity": 7,
+"removed": false
+},
+{
+"ts": "2026-10-07T23:56:00Z",
+"kind": "symptom",
+"text": "tense",
+"severity": 9,
+"removed": false
+},
+{
+"ts": "2026-10-07T18:10:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-07T13:47:00Z",
+"kind": "food",
+"text": "banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-09T02:24:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-08T19:52:00Z",
+"kind": "food",
+"text": "pasta noodles cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-09T11:27:00Z",
+"kind": "symptom",
+"text": "gas",
+"severity": 9,
+"removed": false
+},
+{
+"ts": "2026-10-09T15:46:00Z",
+"kind": "food",
+"text": "beans",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-09T17:32:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-09T18:10:00Z",
+"kind": "food",
+"text": "garlic bread yogurt noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-10T01:12:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+}
+],
+"checks": [
+{
+"now": "2026-08-01T09:00:00Z",
+"pond_start": null,
+"color": "green",
+"hours": -1672.2,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "not enough yet",
+"key": "unknown",
+"average": null,
+"logged_days": 1,
+"trend": null
+},
+"today_count": 1,
+"today_food": 1,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.3592233009708738,
+"items": []
+}
+},
+{
+"now": "2026-08-02T10:00:00Z",
+"pond_start": null,
+"color": "green",
+"hours": -1647.2,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "not enough yet",
+"key": "unknown",
+"average": null,
+"logged_days": 2,
+"trend": null
+},
+"today_count": 1,
+"today_food": 0,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.3592233009708738,
+"items": []
+}
+},
+{
+"now": "2026-08-04T12:00:00Z",
+"pond_start": null,
+"color": "green",
+"hours": -1597.2,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "up and down",
+"key": "mixed",
+"average": 3.5,
+"logged_days": 4,
+"trend": null
+},
+"today_count": 3,
+"today_food": 2,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.3592233009708738,
+"items": []
+}
+},
+{
+"now": "2026-10-10T01:00:00Z",
+"pond_start": null,
+"color": "green",
+"hours": -0.2,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "up and down",
+"key": "mixed",
+"average": 4.2,
+"logged_days": 6,
+"trend": "steady"
+},
+"today_count": 5,
+"today_food": 2,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.3592233009708738,
+"items": []
+}
+},
+{
+"now": "2026-10-10T14:00:00Z",
+"pond_start": null,
+"color": "green",
+"hours": 12.8,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "up and down",
+"key": "mixed",
+"average": 5.0,
+"logged_days": 5,
+"trend": "worse"
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "12 h ago",
+"triggers": {
+"baseline": 0.3592233009708738,
+"items": []
+}
+},
+{
+"now": "2026-10-12T16:00:00Z",
+"pond_start": null,
+"color": "red",
+"hours": 62.8,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "flaring",
+"key": "flaring",
+"average": 6.2,
+"logged_days": 4,
+"trend": "worse"
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "2 days ago",
+"triggers": {
+"baseline": 0.3592233009708738,
+"items": []
+}
+},
+{
+"now": "2026-08-01T09:00:00Z",
+"pond_start": "2026-08-20",
+"color": "green",
+"hours": -1672.2,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "not enough yet",
+"key": "unknown",
+"average": null,
+"logged_days": 1,
+"trend": null
+},
+"today_count": 1,
+"today_food": 1,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.3592233009708738,
+"items": []
+}
+},
+{
+"now": "2026-08-02T10:00:00Z",
+"pond_start": "2026-08-20",
+"color": "green",
+"hours": -1647.2,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "not enough yet",
+"key": "unknown",
+"average": null,
+"logged_days": 2,
+"trend": null
+},
+"today_count": 1,
+"today_food": 0,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.3592233009708738,
+"items": []
+}
+},
+{
+"now": "2026-08-04T12:00:00Z",
+"pond_start": "2026-08-20",
+"color": "green",
+"hours": -1597.2,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "up and down",
+"key": "mixed",
+"average": 3.5,
+"logged_days": 4,
+"trend": null
+},
+"today_count": 3,
+"today_food": 2,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.3592233009708738,
+"items": []
+}
+},
+{
+"now": "2026-10-10T01:00:00Z",
+"pond_start": "2026-08-20",
+"color": "green",
+"hours": -0.2,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "up and down",
+"key": "mixed",
+"average": 4.2,
+"logged_days": 6,
+"trend": "steady"
+},
+"today_count": 5,
+"today_food": 2,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.3592233009708738,
+"items": []
+}
+},
+{
+"now": "2026-10-10T14:00:00Z",
+"pond_start": "2026-08-20",
+"color": "green",
+"hours": 12.8,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "up and down",
+"key": "mixed",
+"average": 5.0,
+"logged_days": 5,
+"trend": "worse"
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "12 h ago",
+"triggers": {
+"baseline": 0.3592233009708738,
+"items": []
+}
+},
+{
+"now": "2026-10-12T16:00:00Z",
+"pond_start": "2026-08-20",
+"color": "red",
+"hours": 62.8,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "flaring",
+"key": "flaring",
+"average": 6.2,
+"logged_days": 4,
+"trend": "worse"
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "2 days ago",
+"triggers": {
+"baseline": 0.3592233009708738,
+"items": []
+}
+}
+]
+},
+{
+"entries": [
+{
+"ts": "2026-08-01T14:23:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-08-01T12:38:00Z",
+"kind": "food",
+"text": "yogurt sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-02T01:34:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 4",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-01T14:14:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-01T10:42:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-08-03T01:38:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-02T23:25:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-02T13:02:00Z",
+"kind": "food",
+"text": "yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-03T19:26:00Z",
+"kind": "food",
+"text": "noodles yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-03T17:57:00Z",
+"kind": "food",
+"text": "yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-03T15:44:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-03T13:45:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-03T13:04:00Z",
+"kind": "food",
+"text": "sour beer rice cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-03T23:57:00Z",
+"kind": "food",
+"text": "banana garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-05T22:45:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-06T10:04:00Z",
+"kind": "food",
+"text": "rice oatmeal beans",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-06T18:09:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-06T14:57:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 4",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-08T03:06:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-07T17:59:00Z",
+"kind": "food",
+"text": "salad yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-07T23:37:00Z",
+"kind": "food",
+"text": "coffee toast",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-07T20:29:00Z",
+"kind": "food",
+"text": "yogurt noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-07T11:43:00Z",
+"kind": "food",
+"text": "yogurt burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-07T20:11:00Z",
+"kind": "food",
+"text": "noodles banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-08T13:49:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-08T14:19:00Z",
+"kind": "food",
+"text": "yogurt oatmeal cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-08T23:41:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-08T17:28:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-10T00:17:00Z",
+"kind": "food",
+"text": "rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-09T16:20:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 7",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-10T12:51:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 4",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-10T18:29:00Z",
+"kind": "food",
+"text": "salad beans",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-10T11:58:00Z",
+"kind": "food",
+"text": "toast",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-12T02:27:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-12T00:53:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-11T17:55:00Z",
+"kind": "food",
+"text": "salad rice garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-11T11:57:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-11T23:36:00Z",
+"kind": "food",
+"text": "oatmeal pasta",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-13T02:34:00Z",
+"kind": "food",
+"text": "oatmeal cheese pizza pasta",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-13T11:22:00Z",
+"kind": "food",
+"text": "oatmeal",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-13T18:58:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-13T10:31:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-13T17:17:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-14T11:49:00Z",
+"kind": "food",
+"text": "rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-15T12:32:00Z",
+"kind": "food",
+"text": "cheese pizza sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-15T22:41:00Z",
+"kind": "food",
+"text": "noodles coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-15T20:27:00Z",
+"kind": "food",
+"text": "toast noodles eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-15T12:36:00Z",
+"kind": "food",
+"text": "eggs salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-16T03:24:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 4",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-16T01:48:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-17T12:51:00Z",
+"kind": "food",
+"text": "coffee eggs",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-08-17T20:23:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-17T18:07:00Z",
+"kind": "food",
+"text": "garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-19T03:06:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-08-18T14:15:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-18T22:11:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-18T13:01:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-18T19:37:00Z",
+"kind": "food",
+"text": "rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-19T17:06:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-19T20:55:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-19T17:29:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 4",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-19T22:22:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 4",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-19T23:53:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-21T01:09:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-21T01:47:00Z",
+"kind": "food",
+"text": "eggs salad noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-20T14:17:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-20T17:54:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-20T23:38:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-21T10:17:00Z",
+"kind": "food",
+"text": "beans pasta",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-21T17:20:00Z",
+"kind": "food",
+"text": "banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-22T01:44:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 7",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-23T01:46:00Z",
+"kind": "food",
+"text": "rice apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-23T12:13:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-23T18:08:00Z",
+"kind": "food",
+"text": "rice eggs coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-23T11:20:00Z",
+"kind": "food",
+"text": "pasta",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-23T18:53:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": true
+},
+{
+"ts": "2026-08-24T00:37:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-23T23:24:00Z",
+"kind": "food",
+"text": "sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-24T18:04:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-26T21:48:00Z",
+"kind": "food",
+"text": "yogurt rice garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-26T20:43:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-26T21:03:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-27T14:11:00Z",
+"kind": "food",
+"text": "eggs rice sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-27T14:58:00Z",
+"kind": "food",
+"text": "banana yogurt coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-28T00:30:00Z",
+"kind": "food",
+"text": "pasta",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-27T15:48:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 4",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-27T18:17:00Z",
+"kind": "food",
+"text": "rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-27T18:15:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-28T21:31:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-29T13:36:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-29T23:42:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-29T14:55:00Z",
+"kind": "food",
+"text": "cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-29T16:55:00Z",
+"kind": "food",
+"text": "toast banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-29T23:52:00Z",
+"kind": "food",
+"text": "salad burger apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-29T19:57:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 4",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-08-30T10:06:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 4",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-31T00:12:00Z",
+"kind": "food",
+"text": "beans toast banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-31T00:07:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-30T12:39:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": true
+},
+{
+"ts": "2026-08-30T17:32:00Z",
+"kind": "food",
+"text": "toast eggs cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-30T21:44:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 7",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-31T12:47:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-31T16:59:00Z",
+"kind": "food",
+"text": "banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-31T17:31:00Z",
+"kind": "food",
+"text": "banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-31T16:45:00Z",
+"kind": "food",
+"text": "sour beer noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-31T23:13:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 4",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-31T22:28:00Z",
+"kind": "food",
+"text": "yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-01T21:38:00Z",
+"kind": "food",
+"text": "beans",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-01T21:09:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-01T16:01:00Z",
+"kind": "food",
+"text": "cheese pizza burger",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-09-01T13:38:00Z",
+"kind": "food",
+"text": "cheese pizza toast",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-01T22:28:00Z",
+"kind": "food",
+"text": "rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-03T17:06:00Z",
+"kind": "food",
+"text": "cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-03T13:22:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-09-04T18:50:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-09-04T19:31:00Z",
+"kind": "food",
+"text": "toast banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-04T21:20:00Z",
+"kind": "food",
+"text": "banana rice salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-06T15:32:00Z",
+"kind": "food",
+"text": "beans",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-08T01:21:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-07T11:24:00Z",
+"kind": "food",
+"text": "garlic bread rice coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-08T22:35:00Z",
+"kind": "food",
+"text": "garlic bread pasta banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-08T22:53:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-09-08T15:23:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 4",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-09T01:22:00Z",
+"kind": "food",
+"text": "garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-08T11:09:00Z",
+"kind": "food",
+"text": "eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-09T13:20:00Z",
+"kind": "food",
+"text": "rice eggs salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-10T00:29:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-09T21:00:00Z",
+"kind": "food",
+"text": "oatmeal cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-09T13:28:00Z",
+"kind": "food",
+"text": "beans oatmeal noodles",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-09-09T14:59:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-09T19:13:00Z",
+"kind": "food",
+"text": "banana yogurt garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-10T16:29:00Z",
+"kind": "food",
+"text": "rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-10T13:38:00Z",
+"kind": "food",
+"text": "beans",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-10T18:05:00Z",
+"kind": "food",
+"text": "apple banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-10T13:41:00Z",
+"kind": "food",
+"text": "noodles beans salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-10T13:18:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-12T03:00:00Z",
+"kind": "food",
+"text": "pasta cheese pizza eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-12T21:27:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-12T21:53:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-12T23:28:00Z",
+"kind": "food",
+"text": "burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-12T16:46:00Z",
+"kind": "food",
+"text": "eggs sour beer noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-12T23:23:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-09-13T23:30:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-13T19:59:00Z",
+"kind": "food",
+"text": "toast",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-13T19:32:00Z",
+"kind": "food",
+"text": "sour beer toast oatmeal",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-13T18:31:00Z",
+"kind": "food",
+"text": "eggs noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-14T13:28:00Z",
+"kind": "food",
+"text": "eggs rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-15T01:48:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+}
+],
+"checks": [
+{
+"now": "2026-08-01T09:00:00Z",
+"pond_start": null,
+"color": "green",
+"hours": -1072.8,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "not enough yet",
+"key": "unknown",
+"average": null,
+"logged_days": 1,
+"trend": null
+},
+"today_count": 4,
+"today_food": 1,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.0,
+"items": []
+}
+},
+{
+"now": "2026-08-02T10:00:00Z",
+"pond_start": null,
+"color": "green",
+"hours": -1047.8,
+"stage": 0,
+"points": 1.0,
+"to_next": 2.0,
+"control": {
+"label": "not enough yet",
+"key": "unknown",
+"average": null,
+"logged_days": 2,
+"trend": null
+},
+"today_count": 3,
+"today_food": 1,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.0,
+"items": []
+}
+},
+{
+"now": "2026-08-04T12:00:00Z",
+"pond_start": null,
+"color": "green",
+"hours": -997.8,
+"stage": 1,
+"points": 3.0,
+"to_next": 4.0,
+"control": {
+"label": "under control",
+"key": "good",
+"average": 0.0,
+"logged_days": 3,
+"trend": null
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.0,
+"items": []
+}
+},
+{
+"now": "2026-09-15T01:00:00Z",
+"pond_start": null,
+"color": "green",
+"hours": -0.8,
+"stage": 5,
+"points": 39.0,
+"to_next": null,
+"control": {
+"label": "under control",
+"key": "good",
+"average": 0.0,
+"logged_days": 7,
+"trend": "steady"
+},
+"today_count": 2,
+"today_food": 1,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.0,
+"items": []
+}
+},
+{
+"now": "2026-09-15T14:00:00Z",
+"pond_start": null,
+"color": "green",
+"hours": 12.2,
+"stage": 5,
+"points": 40.0,
+"to_next": null,
+"control": {
+"label": "under control",
+"key": "good",
+"average": 0.0,
+"logged_days": 6,
+"trend": "steady"
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "12 h ago",
+"triggers": {
+"baseline": 0.0,
+"items": []
+}
+},
+{
+"now": "2026-09-17T16:00:00Z",
+"pond_start": null,
+"color": "red",
+"hours": 62.2,
+"stage": 5,
+"points": 40.0,
+"to_next": null,
+"control": {
+"label": "under control",
+"key": "good",
+"average": 0.0,
+"logged_days": 4,
+"trend": "steady"
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "2 days ago",
+"triggers": {
+"baseline": 0.0,
+"items": []
+}
+},
+{
+"now": "2026-08-01T09:00:00Z",
+"pond_start": "2026-08-20",
+"color": "green",
+"hours": -1072.8,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "not enough yet",
+"key": "unknown",
+"average": null,
+"logged_days": 1,
+"trend": null
+},
+"today_count": 4,
+"today_food": 1,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.0,
+"items": []
+}
+},
+{
+"now": "2026-08-02T10:00:00Z",
+"pond_start": "2026-08-20",
+"color": "green",
+"hours": -1047.8,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "not enough yet",
+"key": "unknown",
+"average": null,
+"logged_days": 2,
+"trend": null
+},
+"today_count": 3,
+"today_food": 1,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.0,
+"items": []
+}
+},
+{
+"now": "2026-08-04T12:00:00Z",
+"pond_start": "2026-08-20",
+"color": "green",
+"hours": -997.8,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "under control",
+"key": "good",
+"average": 0.0,
+"logged_days": 3,
+"trend": null
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.0,
+"items": []
+}
+},
+{
+"now": "2026-09-15T01:00:00Z",
+"pond_start": "2026-08-20",
+"color": "green",
+"hours": -0.8,
+"stage": 4,
+"points": 22.0,
+"to_next": 4.0,
+"control": {
+"label": "under control",
+"key": "good",
+"average": 0.0,
+"logged_days": 7,
+"trend": "steady"
+},
+"today_count": 2,
+"today_food": 1,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.0,
+"items": []
+}
+},
+{
+"now": "2026-09-15T14:00:00Z",
+"pond_start": "2026-08-20",
+"color": "green",
+"hours": 12.2,
+"stage": 4,
+"points": 23.0,
+"to_next": 3.0,
+"control": {
+"label": "under control",
+"key": "good",
+"average": 0.0,
+"logged_days": 6,
+"trend": "steady"
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "12 h ago",
+"triggers": {
+"baseline": 0.0,
+"items": []
+}
+},
+{
+"now": "2026-09-17T16:00:00Z",
+"pond_start": "2026-08-20",
+"color": "red",
+"hours": 62.2,
+"stage": 4,
+"points": 23.0,
+"to_next": 3.0,
+"control": {
+"label": "under control",
+"key": "good",
+"average": 0.0,
+"logged_days": 4,
+"trend": "steady"
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "2 days ago",
+"triggers": {
+"baseline": 0.0,
+"items": []
+}
+}
+]
+},
+{
+"entries": [
+{
+"ts": "2026-08-01T22:30:00Z",
+"kind": "food",
+"text": "toast",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-02T17:33:00Z",
+"kind": "food",
+"text": "cheese pizza banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-03T18:51:00Z",
+"kind": "food",
+"text": "salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-04T12:54:00Z",
+"kind": "symptom",
+"text": "nausea",
+"severity": 9,
+"removed": false
+},
+{
+"ts": "2026-08-05T01:17:00Z",
+"kind": "food",
+"text": "salad toast coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-04T19:54:00Z",
+"kind": "symptom",
+"text": "gas",
+"severity": 7,
+"removed": false
+},
+{
+"ts": "2026-08-05T18:52:00Z",
+"kind": "symptom",
+"text": "gas",
+"severity": 8,
+"removed": false
+},
+{
+"ts": "2026-08-06T01:44:00Z",
+"kind": "food",
+"text": "beans rice sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-06T00:17:00Z",
+"kind": "food",
+"text": "burger sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-06T11:45:00Z",
+"kind": "food",
+"text": "apple rice cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-07T11:22:00Z",
+"kind": "symptom",
+"text": "pain",
+"severity": 5,
+"removed": true
+},
+{
+"ts": "2026-08-08T23:55:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-08-08T12:18:00Z",
+"kind": "symptom",
+"text": "headache",
+"severity": 5,
+"removed": false
+},
+{
+"ts": "2026-08-09T20:36:00Z",
+"kind": "food",
+"text": "eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-09T21:18:00Z",
+"kind": "symptom",
+"text": "reflux",
+"severity": 4,
+"removed": false
+},
+{
+"ts": "2026-08-12T14:38:00Z",
+"kind": "food",
+"text": "apple cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-12T13:53:00Z",
+"kind": "food",
+"text": "beans apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-13T00:26:00Z",
+"kind": "food",
+"text": "banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-12T23:53:00Z",
+"kind": "food",
+"text": "rice",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-08-12T18:15:00Z",
+"kind": "food",
+"text": "banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-13T20:36:00Z",
+"kind": "food",
+"text": "garlic bread eggs burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-14T11:31:00Z",
+"kind": "food",
+"text": "beans eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-14T15:21:00Z",
+"kind": "food",
+"text": "burger banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-14T16:41:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 7",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-14T22:31:00Z",
+"kind": "food",
+"text": "beans toast",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-14T14:49:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-14T11:55:00Z",
+"kind": "food",
+"text": "eggs salad apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-15T10:13:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": true
+},
+{
+"ts": "2026-08-15T18:07:00Z",
+"kind": "food",
+"text": "apple yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-16T20:52:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 7",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-17T02:28:00Z",
+"kind": "food",
+"text": "oatmeal",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-17T14:02:00Z",
+"kind": "food",
+"text": "toast coffee banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-17T12:05:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-17T16:50:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-18T01:54:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-17T13:58:00Z",
+"kind": "symptom",
+"text": "reflux",
+"severity": 9,
+"removed": false
+},
+{
+"ts": "2026-08-18T12:40:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-19T01:27:00Z",
+"kind": "food",
+"text": "cheese pizza sour beer banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-18T14:20:00Z",
+"kind": "food",
+"text": "yogurt sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-18T10:45:00Z",
+"kind": "food",
+"text": "salad rice yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-20T01:33:00Z",
+"kind": "food",
+"text": "banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-19T21:14:00Z",
+"kind": "symptom",
+"text": "bloating",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-19T20:34:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-08-19T19:59:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 7",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-20T00:25:00Z",
+"kind": "food",
+"text": "noodles burger cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-21T15:18:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-08-21T21:43:00Z",
+"kind": "symptom",
+"text": "headache",
+"severity": 7,
+"removed": false
+},
+{
+"ts": "2026-08-21T21:20:00Z",
+"kind": "food",
+"text": "toast",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-21T12:51:00Z",
+"kind": "food",
+"text": "cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-22T01:42:00Z",
+"kind": "symptom",
+"text": "headache",
+"severity": 2,
+"removed": false
+},
+{
+"ts": "2026-08-22T17:39:00Z",
+"kind": "symptom",
+"text": "nausea",
+"severity": 7,
+"removed": false
+},
+{
+"ts": "2026-08-22T17:19:00Z",
+"kind": "food",
+"text": "burger yogurt sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-23T00:57:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-22T20:18:00Z",
+"kind": "food",
+"text": "toast coffee pasta",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-23T00:44:00Z",
+"kind": "symptom",
+"text": "reflux",
+"severity": 7,
+"removed": false
+},
+{
+"ts": "2026-08-22T14:32:00Z",
+"kind": "food",
+"text": "noodles salad garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-25T01:57:00Z",
+"kind": "symptom",
+"text": "cramps",
+"severity": 4,
+"removed": false
+},
+{
+"ts": "2026-08-24T11:10:00Z",
+"kind": "food",
+"text": "yogurt toast sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-25T11:20:00Z",
+"kind": "food",
+"text": "rice eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-25T19:39:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-26T14:56:00Z",
+"kind": "symptom",
+"text": "bloating",
+"severity": 6,
+"removed": false
+},
+{
+"ts": "2026-08-27T03:09:00Z",
+"kind": "food",
+"text": "beans",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-27T01:32:00Z",
+"kind": "food",
+"text": "cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-26T18:32:00Z",
+"kind": "food",
+"text": "salad banana beans",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-27T10:17:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-27T14:05:00Z",
+"kind": "food",
+"text": "toast oatmeal eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-28T01:58:00Z",
+"kind": "symptom",
+"text": "reflux",
+"severity": 8,
+"removed": false
+},
+{
+"ts": "2026-08-27T15:53:00Z",
+"kind": "food",
+"text": "oatmeal",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-28T19:59:00Z",
+"kind": "symptom",
+"text": "nausea",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-28T19:50:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-28T12:57:00Z",
+"kind": "food",
+"text": "oatmeal burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-30T21:59:00Z",
+"kind": "food",
+"text": "rice apple yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-30T17:02:00Z",
+"kind": "food",
+"text": "burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-30T14:44:00Z",
+"kind": "food",
+"text": "toast rice banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-30T18:39:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-01T01:44:00Z",
+"kind": "food",
+"text": "apple eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-01T22:40:00Z",
+"kind": "symptom",
+"text": "foggy",
+"severity": 7,
+"removed": false
+},
+{
+"ts": "2026-09-02T02:55:00Z",
+"kind": "food",
+"text": "salad garlic bread oatmeal",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-01T23:20:00Z",
+"kind": "food",
+"text": "sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-02T20:48:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-09-02T23:20:00Z",
+"kind": "symptom",
+"text": "tense",
+"severity": 5,
+"removed": false
+},
+{
+"ts": "2026-09-02T22:16:00Z",
+"kind": "symptom",
+"text": "pain",
+"severity": 3,
+"removed": false
+},
+{
+"ts": "2026-09-03T12:44:00Z",
+"kind": "food",
+"text": "beans eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-03T13:41:00Z",
+"kind": "food",
+"text": "beans pasta",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-04T13:51:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-05T14:58:00Z",
+"kind": "symptom",
+"text": "bloating",
+"severity": 3,
+"removed": false
+},
+{
+"ts": "2026-09-05T15:43:00Z",
+"kind": "food",
+"text": "burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-05T21:10:00Z",
+"kind": "food",
+"text": "rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-05T15:43:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-09-05T18:45:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-09-06T01:06:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 7",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-07T01:34:00Z",
+"kind": "food",
+"text": "garlic bread banana",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-09-06T11:11:00Z",
+"kind": "food",
+"text": "salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-06T16:39:00Z",
+"kind": "symptom",
+"text": "cramps",
+"severity": 9,
+"removed": false
+},
+{
+"ts": "2026-09-06T16:22:00Z",
+"kind": "food",
+"text": "beans toast eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-06T19:52:00Z",
+"kind": "symptom",
+"text": "foggy",
+"severity": 9,
+"removed": false
+},
+{
+"ts": "2026-09-07T22:10:00Z",
+"kind": "food",
+"text": "eggs cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-08T00:44:00Z",
+"kind": "food",
+"text": "banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-07T20:18:00Z",
+"kind": "symptom",
+"text": "foggy",
+"severity": 2,
+"removed": false
+},
+{
+"ts": "2026-09-08T02:03:00Z",
+"kind": "food",
+"text": "apple salad cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-07T10:24:00Z",
+"kind": "food",
+"text": "coffee salad toast",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-07T19:14:00Z",
+"kind": "food",
+"text": "noodles pasta",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-08T21:16:00Z",
+"kind": "symptom",
+"text": "tense",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-08T16:31:00Z",
+"kind": "food",
+"text": "pasta",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-08T16:10:00Z",
+"kind": "food",
+"text": "coffee salad banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-08T21:55:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-09-08T11:50:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-09T19:30:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-11T02:44:00Z",
+"kind": "symptom",
+"text": "gas",
+"severity": 3,
+"removed": false
+},
+{
+"ts": "2026-09-10T11:00:00Z",
+"kind": "food",
+"text": "noodles rice oatmeal",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-10T12:51:00Z",
+"kind": "food",
+"text": "salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-11T15:12:00Z",
+"kind": "symptom",
+"text": "cramps",
+"severity": 2,
+"removed": true
+},
+{
+"ts": "2026-09-11T10:18:00Z",
+"kind": "food",
+"text": "banana rice eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-12T16:32:00Z",
+"kind": "symptom",
+"text": "cramps",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-12T14:57:00Z",
+"kind": "food",
+"text": "burger yogurt cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-13T13:37:00Z",
+"kind": "symptom",
+"text": "headache",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-09-13T18:34:00Z",
+"kind": "symptom",
+"text": "headache",
+"severity": 6,
+"removed": false
+},
+{
+"ts": "2026-09-14T03:29:00Z",
+"kind": "food",
+"text": "eggs pasta apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-14T03:01:00Z",
+"kind": "symptom",
+"text": "gas",
+"severity": 4,
+"removed": false
+},
+{
+"ts": "2026-09-14T00:21:00Z",
+"kind": "food",
+"text": "burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-14T16:34:00Z",
+"kind": "food",
+"text": "yogurt cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-14T15:20:00Z",
+"kind": "food",
+"text": "burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-14T16:11:00Z",
+"kind": "food",
+"text": "rice yogurt",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-09-14T10:56:00Z",
+"kind": "symptom",
+"text": "nausea",
+"severity": 4,
+"removed": false
+},
+{
+"ts": "2026-09-14T22:24:00Z",
+"kind": "food",
+"text": "banana coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-14T20:50:00Z",
+"kind": "food",
+"text": "rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-15T23:43:00Z",
+"kind": "symptom",
+"text": "pain",
+"severity": 6,
+"removed": false
+},
+{
+"ts": "2026-09-15T14:00:00Z",
+"kind": "food",
+"text": "garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-16T23:35:00Z",
+"kind": "symptom",
+"text": "foggy",
+"severity": 2,
+"removed": false
+},
+{
+"ts": "2026-09-16T16:48:00Z",
+"kind": "food",
+"text": "oatmeal pasta",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-17T00:47:00Z",
+"kind": "food",
+"text": "burger beans",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-16T22:57:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-09-16T20:56:00Z",
+"kind": "food",
+"text": "pasta noodles apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-17T15:59:00Z",
+"kind": "food",
+"text": "burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-18T02:56:00Z",
+"kind": "symptom",
+"text": "headache",
+"severity": 4,
+"removed": false
+},
+{
+"ts": "2026-09-18T21:59:00Z",
+"kind": "food",
+"text": "oatmeal apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-18T10:53:00Z",
+"kind": "symptom",
+"text": "gas",
+"severity": 8,
+"removed": false
+},
+{
+"ts": "2026-09-18T20:23:00Z",
+"kind": "food",
+"text": "sour beer garlic bread salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-19T01:59:00Z",
+"kind": "food",
+"text": "noodles salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-18T11:47:00Z",
+"kind": "symptom",
+"text": "tense",
+"severity": 3,
+"removed": false
+},
+{
+"ts": "2026-09-20T19:08:00Z",
+"kind": "food",
+"text": "burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-20T20:53:00Z",
+"kind": "food",
+"text": "yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-20T12:02:00Z",
+"kind": "food",
+"text": "apple oatmeal sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-20T12:34:00Z",
+"kind": "symptom",
+"text": "nausea",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-20T16:14:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-21T22:36:00Z",
+"kind": "food",
+"text": "oatmeal salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-21T13:03:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-21T11:56:00Z",
+"kind": "symptom",
+"text": "bloating",
+"severity": 4,
+"removed": false
+},
+{
+"ts": "2026-09-22T12:54:00Z",
+"kind": "food",
+"text": "banana yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-23T15:09:00Z",
+"kind": "food",
+"text": "eggs yogurt banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-24T21:36:00Z",
+"kind": "food",
+"text": "yogurt coffee salad",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-09-24T22:44:00Z",
+"kind": "symptom",
+"text": "cramps",
+"severity": 5,
+"removed": false
+},
+{
+"ts": "2026-09-24T16:59:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-09-24T22:42:00Z",
+"kind": "food",
+"text": "cheese pizza salad garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-25T12:51:00Z",
+"kind": "food",
+"text": "eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-26T02:00:00Z",
+"kind": "food",
+"text": "beans",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-25T18:37:00Z",
+"kind": "food",
+"text": "yogurt toast rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-25T15:47:00Z",
+"kind": "food",
+"text": "burger noodles eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-26T01:15:00Z",
+"kind": "food",
+"text": "burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-27T03:29:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-09-26T15:52:00Z",
+"kind": "food",
+"text": "banana sour beer noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-27T12:51:00Z",
+"kind": "food",
+"text": "yogurt pasta",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-27T18:47:00Z",
+"kind": "food",
+"text": "sour beer noodles apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-27T21:47:00Z",
+"kind": "food",
+"text": "salad sour beer toast",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-28T02:56:00Z",
+"kind": "food",
+"text": "sour beer pasta",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-09-27T17:40:00Z",
+"kind": "food",
+"text": "cheese pizza oatmeal apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-28T00:19:00Z",
+"kind": "food",
+"text": "banana oatmeal",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-09-30T03:12:00Z",
+"kind": "symptom",
+"text": "foggy",
+"severity": 9,
+"removed": false
+},
+{
+"ts": "2026-09-30T14:23:00Z",
+"kind": "food",
+"text": "garlic bread beans sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-01T22:36:00Z",
+"kind": "food",
+"text": "coffee pasta apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-01T18:49:00Z",
+"kind": "food",
+"text": "eggs yogurt cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-01T13:50:00Z",
+"kind": "symptom",
+"text": "headache",
+"severity": 9,
+"removed": false
+},
+{
+"ts": "2026-10-02T11:57:00Z",
+"kind": "symptom",
+"text": "bloating",
+"severity": 4,
+"removed": false
+},
+{
+"ts": "2026-10-02T18:31:00Z",
+"kind": "food",
+"text": "oatmeal",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-02T23:51:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-02T12:40:00Z",
+"kind": "food",
+"text": "eggs pasta toast",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-02T18:16:00Z",
+"kind": "food",
+"text": "rice salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-03T13:15:00Z",
+"kind": "symptom",
+"text": "reflux",
+"severity": 5,
+"removed": false
+},
+{
+"ts": "2026-10-03T13:24:00Z",
+"kind": "food",
+"text": "eggs salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-03T15:43:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-04T12:28:00Z",
+"kind": "symptom",
+"text": "nausea",
+"severity": 9,
+"removed": false
+},
+{
+"ts": "2026-10-05T03:58:00Z",
+"kind": "symptom",
+"text": "tense",
+"severity": 8,
+"removed": false
+},
+{
+"ts": "2026-10-04T20:50:00Z",
+"kind": "symptom",
+"text": "headache",
+"severity": 6,
+"removed": false
+},
+{
+"ts": "2026-10-05T12:16:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-10-06T00:18:00Z",
+"kind": "symptom",
+"text": "nausea",
+"severity": 7,
+"removed": false
+},
+{
+"ts": "2026-10-05T19:50:00Z",
+"kind": "food",
+"text": "yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-05T16:12:00Z",
+"kind": "food",
+"text": "sour beer salad pasta",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-05T10:09:00Z",
+"kind": "food",
+"text": "noodles sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-07T21:10:00Z",
+"kind": "symptom",
+"text": "pain",
+"severity": 2,
+"removed": false
+},
+{
+"ts": "2026-10-07T13:35:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-10-08T02:38:00Z",
+"kind": "symptom",
+"text": "reflux",
+"severity": 6,
+"removed": false
+},
+{
+"ts": "2026-10-07T14:53:00Z",
+"kind": "food",
+"text": "eggs burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-08T15:59:00Z",
+"kind": "food",
+"text": "eggs oatmeal burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-09T03:01:00Z",
+"kind": "food",
+"text": "apple salad garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-09T02:42:00Z",
+"kind": "food",
+"text": "banana eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-08T13:02:00Z",
+"kind": "food",
+"text": "cheese pizza apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-08T19:46:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-10T12:01:00Z",
+"kind": "food",
+"text": "pasta",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-10T18:56:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-10T20:20:00Z",
+"kind": "symptom",
+"text": "cramps",
+"severity": 3,
+"removed": false
+},
+{
+"ts": "2026-10-11T18:42:00Z",
+"kind": "symptom",
+"text": "tense",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-11T18:50:00Z",
+"kind": "food",
+"text": "noodles rice sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-11T11:46:00Z",
+"kind": "food",
+"text": "eggs garlic bread burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-11T23:29:00Z",
+"kind": "food",
+"text": "sour beer cheese pizza salad",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-10-11T16:43:00Z",
+"kind": "symptom",
+"text": "pain",
+"severity": 5,
+"removed": false
+},
+{
+"ts": "2026-10-13T16:34:00Z",
+"kind": "food",
+"text": "oatmeal eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-13T23:16:00Z",
+"kind": "symptom",
+"text": "cramps",
+"severity": 8,
+"removed": false
+},
+{
+"ts": "2026-10-13T13:42:00Z",
+"kind": "symptom",
+"text": "foggy",
+"severity": 2,
+"removed": false
+},
+{
+"ts": "2026-10-13T22:36:00Z",
+"kind": "food",
+"text": "cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-14T18:08:00Z",
+"kind": "symptom",
+"text": "cramps",
+"severity": 5,
+"removed": false
+},
+{
+"ts": "2026-10-15T23:25:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-16T16:04:00Z",
+"kind": "food",
+"text": "sour beer noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-16T19:47:00Z",
+"kind": "food",
+"text": "yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-17T01:14:00Z",
+"kind": "symptom",
+"text": "pain",
+"severity": 8,
+"removed": false
+},
+{
+"ts": "2026-10-16T21:31:00Z",
+"kind": "food",
+"text": "apple eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-17T17:33:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-17T21:29:00Z",
+"kind": "symptom",
+"text": "gas",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-17T14:04:00Z",
+"kind": "food",
+"text": "cheese pizza",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-17T13:30:00Z",
+"kind": "symptom",
+"text": "headache",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-18T02:13:00Z",
+"kind": "food",
+"text": "garlic bread coffee sour beer",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-10-18T22:19:00Z",
+"kind": "food",
+"text": "salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-18T13:15:00Z",
+"kind": "food",
+"text": "garlic bread sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-19T12:54:00Z",
+"kind": "food",
+"text": "toast banana coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-20T00:23:00Z",
+"kind": "food",
+"text": "garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-19T19:43:00Z",
+"kind": "food",
+"text": "pasta beans",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-20T10:49:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": true
+},
+{
+"ts": "2026-10-21T01:34:00Z",
+"kind": "food",
+"text": "banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-20T21:30:00Z",
+"kind": "food",
+"text": "apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-20T14:22:00Z",
+"kind": "food",
+"text": "apple noodles coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-20T18:38:00Z",
+"kind": "food",
+"text": "cheese pizza rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-20T10:06:00Z",
+"kind": "food",
+"text": "banana",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-21T19:27:00Z",
+"kind": "food",
+"text": "noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-21T15:44:00Z",
+"kind": "symptom",
+"text": "foggy",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-23T01:11:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-23T01:33:00Z",
+"kind": "food",
+"text": "yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-23T15:07:00Z",
+"kind": "food",
+"text": "burger",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-24T02:58:00Z",
+"kind": "symptom",
+"text": "reflux",
+"severity": 3,
+"removed": false
+},
+{
+"ts": "2026-10-24T03:42:00Z",
+"kind": "food",
+"text": "banana eggs",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-23T19:06:00Z",
+"kind": "food",
+"text": "eggs pasta",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-24T17:24:00Z",
+"kind": "symptom",
+"text": "cramps",
+"severity": 5,
+"removed": false
+},
+{
+"ts": "2026-10-25T00:55:00Z",
+"kind": "symptom",
+"text": "foggy",
+"severity": 6,
+"removed": false
+},
+{
+"ts": "2026-10-24T23:11:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-24T23:09:00Z",
+"kind": "symptom",
+"text": "tense",
+"severity": 9,
+"removed": false
+},
+{
+"ts": "2026-10-26T01:32:00Z",
+"kind": "food",
+"text": "banana garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-25T15:06:00Z",
+"kind": "food",
+"text": "noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-25T21:03:00Z",
+"kind": "food",
+"text": "noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-25T16:48:00Z",
+"kind": "symptom",
+"text": "tense",
+"severity": 7,
+"removed": false
+},
+{
+"ts": "2026-10-25T14:50:00Z",
+"kind": "food",
+"text": "coffee pasta",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-26T20:18:00Z",
+"kind": "food",
+"text": "rice yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-27T02:19:00Z",
+"kind": "food",
+"text": "eggs oatmeal rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-26T15:15:00Z",
+"kind": "food",
+"text": "coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-26T12:19:00Z",
+"kind": "food",
+"text": "rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-27T03:57:00Z",
+"kind": "food",
+"text": "apple yogurt toast",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-27T11:43:00Z",
+"kind": "food",
+"text": "burger pasta salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-27T20:43:00Z",
+"kind": "food",
+"text": "sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-29T01:17:00Z",
+"kind": "food",
+"text": "beans",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-29T02:11:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-29T10:49:00Z",
+"kind": "food",
+"text": "coffee noodles apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-10-29T21:45:00Z",
+"kind": "food",
+"text": "coffee apple toast",
+"severity": null,
+"removed": false
+}
+],
+"checks": [
+{
+"now": "2026-08-01T09:00:00Z",
+"pond_start": null,
+"color": "green",
+"hours": -2148.75,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "not enough yet",
+"key": "unknown",
+"average": null,
+"logged_days": 1,
+"trend": null
+},
+"today_count": 1,
+"today_food": 1,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.21232876712328766,
+"items": []
+}
+},
+{
+"now": "2026-08-02T10:00:00Z",
+"pond_start": null,
+"color": "green",
+"hours": -2123.75,
+"stage": 0,
+"points": 1.0,
+"to_next": 2.0,
+"control": {
+"label": "not enough yet",
+"key": "unknown",
+"average": null,
+"logged_days": 2,
+"trend": null
+},
+"today_count": 1,
+"today_food": 1,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.21232876712328766,
+"items": []
+}
+},
+{
+"now": "2026-08-04T12:00:00Z",
+"pond_start": null,
+"color": "green",
+"hours": -2073.75,
+"stage": 0,
+"points": 1.0,
+"to_next": 2.0,
+"control": {
+"label": "under control",
+"key": "good",
+"average": 2.2,
+"logged_days": 4,
+"trend": null
+},
+"today_count": 3,
+"today_food": 1,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.21232876712328766,
+"items": []
+}
+},
+{
+"now": "2026-10-30T01:00:00Z",
+"pond_start": null,
+"color": "green",
+"hours": 3.25,
+"stage": 1,
+"points": 3.5,
+"to_next": 3.5,
+"control": {
+"label": "up and down",
+"key": "mixed",
+"average": 2.7,
+"logged_days": 7,
+"trend": "steady"
+},
+"today_count": 2,
+"today_food": 2,
+"ago": "3 h ago",
+"triggers": {
+"baseline": 0.21232876712328766,
+"items": []
+}
+},
+{
+"now": "2026-10-30T14:00:00Z",
+"pond_start": null,
+"color": "green",
+"hours": 16.25,
+"stage": 1,
+"points": 4.5,
+"to_next": 2.5,
+"control": {
+"label": "up and down",
+"key": "mixed",
+"average": 2.7,
+"logged_days": 6,
+"trend": "worse"
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "16 h ago",
+"triggers": {
+"baseline": 0.21232876712328766,
+"items": []
+}
+},
+{
+"now": "2026-11-01T17:00:00Z",
+"pond_start": null,
+"color": "red",
+"hours": 67.25,
+"stage": 1,
+"points": 4.5,
+"to_next": 2.5,
+"control": {
+"label": "under control",
+"key": "good",
+"average": 0.0,
+"logged_days": 4,
+"trend": "better"
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "2 days ago",
+"triggers": {
+"baseline": 0.21232876712328766,
+"items": []
+}
+},
+{
+"now": "2026-08-01T09:00:00Z",
+"pond_start": "2026-08-20",
+"color": "green",
+"hours": -2148.75,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "not enough yet",
+"key": "unknown",
+"average": null,
+"logged_days": 1,
+"trend": null
+},
+"today_count": 1,
+"today_food": 1,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.21232876712328766,
+"items": []
+}
+},
+{
+"now": "2026-08-02T10:00:00Z",
+"pond_start": "2026-08-20",
+"color": "green",
+"hours": -2123.75,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "not enough yet",
+"key": "unknown",
+"average": null,
+"logged_days": 2,
+"trend": null
+},
+"today_count": 1,
+"today_food": 1,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.21232876712328766,
+"items": []
+}
+},
+{
+"now": "2026-08-04T12:00:00Z",
+"pond_start": "2026-08-20",
+"color": "green",
+"hours": -2073.75,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "under control",
+"key": "good",
+"average": 2.2,
+"logged_days": 4,
+"trend": null
+},
+"today_count": 3,
+"today_food": 1,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.21232876712328766,
+"items": []
+}
+},
+{
+"now": "2026-10-30T01:00:00Z",
+"pond_start": "2026-08-20",
+"color": "green",
+"hours": 3.25,
+"stage": 1,
+"points": 3.5,
+"to_next": 3.5,
+"control": {
+"label": "up and down",
+"key": "mixed",
+"average": 2.7,
+"logged_days": 7,
+"trend": "steady"
+},
+"today_count": 2,
+"today_food": 2,
+"ago": "3 h ago",
+"triggers": {
+"baseline": 0.21232876712328766,
+"items": []
+}
+},
+{
+"now": "2026-10-30T14:00:00Z",
+"pond_start": "2026-08-20",
+"color": "green",
+"hours": 16.25,
+"stage": 1,
+"points": 4.5,
+"to_next": 2.5,
+"control": {
+"label": "up and down",
+"key": "mixed",
+"average": 2.7,
+"logged_days": 6,
+"trend": "worse"
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "16 h ago",
+"triggers": {
+"baseline": 0.21232876712328766,
+"items": []
+}
+},
+{
+"now": "2026-11-01T17:00:00Z",
+"pond_start": "2026-08-20",
+"color": "red",
+"hours": 67.25,
+"stage": 1,
+"points": 4.5,
+"to_next": 2.5,
+"control": {
+"label": "under control",
+"key": "good",
+"average": 0.0,
+"logged_days": 4,
+"trend": "better"
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "2 days ago",
+"triggers": {
+"baseline": 0.21232876712328766,
+"items": []
+}
+}
+]
+},
+{
+"entries": [
+{
+"ts": "2026-08-01T21:50:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-01T10:53:00Z",
+"kind": "food",
+"text": "rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-01T13:23:00Z",
+"kind": "food",
+"text": "garlic bread",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-01T17:00:00Z",
+"kind": "symptom",
+"text": "reflux",
+"severity": 3,
+"removed": false
+},
+{
+"ts": "2026-08-01T12:08:00Z",
+"kind": "symptom",
+"text": "bloating",
+"severity": 3,
+"removed": false
+},
+{
+"ts": "2026-08-01T10:13:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 2",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-03T03:56:00Z",
+"kind": "symptom",
+"text": "reflux",
+"severity": 4,
+"removed": false
+},
+{
+"ts": "2026-08-02T21:26:00Z",
+"kind": "food",
+"text": "yogurt",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-03T10:38:00Z",
+"kind": "symptom",
+"text": "pain",
+"severity": 5,
+"removed": false
+},
+{
+"ts": "2026-08-04T01:44:00Z",
+"kind": "food",
+"text": "sour beer noodles",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-03T18:01:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-08-03T22:01:00Z",
+"kind": "food",
+"text": "noodles beans",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-03T10:28:00Z",
+"kind": "food",
+"text": "beans",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-04T21:32:00Z",
+"kind": "food",
+"text": "yogurt garlic bread apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-04T21:55:00Z",
+"kind": "food",
+"text": "pasta oatmeal",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-04T21:58:00Z",
+"kind": "food",
+"text": "pasta coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-04T19:11:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-05T11:05:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-05T22:02:00Z",
+"kind": "food",
+"text": "noodles banana coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-06T11:51:00Z",
+"kind": "food",
+"text": "coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-07T23:06:00Z",
+"kind": "food",
+"text": "coffee toast",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-07T19:09:00Z",
+"kind": "food",
+"text": "cheese pizza yogurt apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-09T01:17:00Z",
+"kind": "food",
+"text": "coffee rice",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-09T03:11:00Z",
+"kind": "symptom",
+"text": "headache",
+"severity": 6,
+"removed": false
+},
+{
+"ts": "2026-08-08T18:32:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 3",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-09T11:48:00Z",
+"kind": "food",
+"text": "yogurt banana apple",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-09T19:21:00Z",
+"kind": "symptom",
+"text": "foggy",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-09T18:20:00Z",
+"kind": "symptom",
+"text": "pain",
+"severity": 9,
+"removed": false
+},
+{
+"ts": "2026-08-10T23:22:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+},
+{
+"ts": "2026-08-11T00:23:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-11T02:10:00Z",
+"kind": "food",
+"text": "sour beer coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-10T23:10:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 5",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-10T23:19:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 6",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-10T10:12:00Z",
+"kind": "food",
+"text": "cheese pizza oatmeal",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-11T11:30:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-11T14:07:00Z",
+"kind": "food",
+"text": "sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-11T11:26:00Z",
+"kind": "food",
+"text": "pasta salad",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-11T21:00:00Z",
+"kind": "food",
+"text": "banana sour beer",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-12T03:23:00Z",
+"kind": "note",
+"text": "a note",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-11T19:06:00Z",
+"kind": "food",
+"text": "burger salad coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-12T23:52:00Z",
+"kind": "symptom",
+"text": "headache",
+"severity": 8,
+"removed": false
+},
+{
+"ts": "2026-08-12T22:36:00Z",
+"kind": "food",
+"text": "coffee",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-12T21:52:00Z",
+"kind": "stool",
+"text": "Stool, Bristol 1",
+"severity": null,
+"removed": false
+},
+{
+"ts": "2026-08-12T20:36:00Z",
+"kind": "clear",
+"text": "No symptoms",
+"severity": 0,
+"removed": false
+}
+],
+"checks": [
+{
+"now": "2026-08-01T09:00:00Z",
+"pond_start": null,
+"color": "green",
+"hours": -278.8666666666667,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "not enough yet",
+"key": "unknown",
+"average": null,
+"logged_days": 1,
+"trend": null
+},
+"today_count": 6,
+"today_food": 2,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.18181818181818182,
+"items": [
+{
+"word": "yogurt",
+"seen": 4,
+"followed": 2,
+"rate": 0.5
+}
+]
+}
+},
+{
+"now": "2026-08-02T10:00:00Z",
+"pond_start": null,
+"color": "green",
+"hours": -253.86666666666667,
+"stage": 0,
+"points": 0.5,
+"to_next": 2.5,
+"control": {
+"label": "not enough yet",
+"key": "unknown",
+"average": null,
+"logged_days": 2,
+"trend": null
+},
+"today_count": 2,
+"today_food": 1,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.18181818181818182,
+"items": [
+{
+"word": "yogurt",
+"seen": 4,
+"followed": 2,
+"rate": 0.5
+}
+]
+}
+},
+{
+"now": "2026-08-04T12:00:00Z",
+"pond_start": null,
+"color": "green",
+"hours": -203.86666666666667,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "up and down",
+"key": "mixed",
+"average": 3.0,
+"logged_days": 4,
+"trend": null
+},
+"today_count": 4,
+"today_food": 3,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.18181818181818182,
+"items": [
+{
+"word": "yogurt",
+"seen": 4,
+"followed": 2,
+"rate": 0.5
+}
+]
+}
+},
+{
+"now": "2026-08-13T01:00:00Z",
+"pond_start": null,
+"color": "green",
+"hours": 1.1333333333333333,
+"stage": 0,
+"points": 1.5,
+"to_next": 1.5,
+"control": {
+"label": "up and down",
+"key": "mixed",
+"average": 3.3,
+"logged_days": 7,
+"trend": "worse"
+},
+"today_count": 4,
+"today_food": 1,
+"ago": "1 h ago",
+"triggers": {
+"baseline": 0.18181818181818182,
+"items": [
+{
+"word": "yogurt",
+"seen": 4,
+"followed": 2,
+"rate": 0.5
+}
+]
+}
+},
+{
+"now": "2026-08-13T14:00:00Z",
+"pond_start": null,
+"color": "green",
+"hours": 14.133333333333333,
+"stage": 0,
+"points": 1.5,
+"to_next": 1.5,
+"control": {
+"label": "up and down",
+"key": "mixed",
+"average": 3.8,
+"logged_days": 6,
+"trend": "worse"
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "14 h ago",
+"triggers": {
+"baseline": 0.18181818181818182,
+"items": [
+{
+"word": "yogurt",
+"seen": 4,
+"followed": 2,
+"rate": 0.5
+}
+]
+}
+},
+{
+"now": "2026-08-15T16:00:00Z",
+"pond_start": null,
+"color": "red",
+"hours": 64.13333333333334,
+"stage": 0,
+"points": 1.5,
+"to_next": 1.5,
+"control": {
+"label": "up and down",
+"key": "mixed",
+"average": 4.2,
+"logged_days": 4,
+"trend": "worse"
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "2 days ago",
+"triggers": {
+"baseline": 0.18181818181818182,
+"items": [
+{
+"word": "yogurt",
+"seen": 4,
+"followed": 2,
+"rate": 0.5
+}
+]
+}
+},
+{
+"now": "2026-08-01T09:00:00Z",
+"pond_start": "2026-08-20",
+"color": "green",
+"hours": -278.8666666666667,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "not enough yet",
+"key": "unknown",
+"average": null,
+"logged_days": 1,
+"trend": null
+},
+"today_count": 6,
+"today_food": 2,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.18181818181818182,
+"items": [
+{
+"word": "yogurt",
+"seen": 4,
+"followed": 2,
+"rate": 0.5
+}
+]
+}
+},
+{
+"now": "2026-08-02T10:00:00Z",
+"pond_start": "2026-08-20",
+"color": "green",
+"hours": -253.86666666666667,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "not enough yet",
+"key": "unknown",
+"average": null,
+"logged_days": 2,
+"trend": null
+},
+"today_count": 2,
+"today_food": 1,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.18181818181818182,
+"items": [
+{
+"word": "yogurt",
+"seen": 4,
+"followed": 2,
+"rate": 0.5
+}
+]
+}
+},
+{
+"now": "2026-08-04T12:00:00Z",
+"pond_start": "2026-08-20",
+"color": "green",
+"hours": -203.86666666666667,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "up and down",
+"key": "mixed",
+"average": 3.0,
+"logged_days": 4,
+"trend": null
+},
+"today_count": 4,
+"today_food": 3,
+"ago": "1 min ago",
+"triggers": {
+"baseline": 0.18181818181818182,
+"items": [
+{
+"word": "yogurt",
+"seen": 4,
+"followed": 2,
+"rate": 0.5
+}
+]
+}
+},
+{
+"now": "2026-08-13T01:00:00Z",
+"pond_start": "2026-08-20",
+"color": "green",
+"hours": 1.1333333333333333,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "up and down",
+"key": "mixed",
+"average": 3.3,
+"logged_days": 7,
+"trend": "worse"
+},
+"today_count": 4,
+"today_food": 1,
+"ago": "1 h ago",
+"triggers": {
+"baseline": 0.18181818181818182,
+"items": [
+{
+"word": "yogurt",
+"seen": 4,
+"followed": 2,
+"rate": 0.5
+}
+]
+}
+},
+{
+"now": "2026-08-13T14:00:00Z",
+"pond_start": "2026-08-20",
+"color": "green",
+"hours": 14.133333333333333,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "up and down",
+"key": "mixed",
+"average": 3.8,
+"logged_days": 6,
+"trend": "worse"
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "14 h ago",
+"triggers": {
+"baseline": 0.18181818181818182,
+"items": [
+{
+"word": "yogurt",
+"seen": 4,
+"followed": 2,
+"rate": 0.5
+}
+]
+}
+},
+{
+"now": "2026-08-15T16:00:00Z",
+"pond_start": "2026-08-20",
+"color": "red",
+"hours": 64.13333333333334,
+"stage": 0,
+"points": 0.0,
+"to_next": 3.0,
+"control": {
+"label": "up and down",
+"key": "mixed",
+"average": 4.2,
+"logged_days": 4,
+"trend": "worse"
+},
+"today_count": 0,
+"today_food": 0,
+"ago": "2 days ago",
+"triggers": {
+"baseline": 0.18181818181818182,
+"items": [
+{
+"word": "yogurt",
+"seen": 4,
+"followed": 2,
+"rate": 0.5
+}
+]
+}
+}
+]
+}
+]
+}

@@ -3,14 +3,13 @@ package app.tadpole.widget;
 import android.app.job.JobParameters;
 import android.app.job.JobService;
 
-/** Refreshes the widget from the server as a background job, so it still gets network when the phone is idle. */
+/** Runs in the background: syncs with the paired computer when there is one, and repaints the widget (its colour follows the clock). */
 public class SyncService extends JobService {
     @Override
     public boolean onStartJob(final JobParameters params) {
         new Thread(() -> {
             try {
-                Sync.flush(SyncService.this);
-                Sync.state(SyncService.this);
+                if (Desk.paired(SyncService.this)) Desk.sync(SyncService.this);
             } finally {
                 PondWidget.refreshAll(SyncService.this);
                 jobFinished(params, false);

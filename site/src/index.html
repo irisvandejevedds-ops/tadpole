@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#2F8442">
+<meta name="description" content="Tadpole is a food and symptom diary with a frog that grows up while you keep notes. It keeps your diary on your own phone.">
+<title>Tadpole</title>
+<link rel="icon" href="icon-192.png">
+<link rel="stylesheet" href="app.css">
+<link rel="stylesheet" href="site.css">
+</head>
+<body data-platform="unknown">
+<header class="top"><a class="brand" href="./">Tadpole</a></header>
+<main class="wrap">
+  <section class="hero">
+    <div class="stage bob" id="frog"></div>
+    <div class="herotext">
+      <p class="label">A food diary</p>
+      <h1>Tadpole</h1>
+      <p>Write down what you eat and how you feel. The tadpole stays happy while you keep notes, and grows into a frog while your symptoms stay calm.</p>
+    </div>
+  </section>
+
+  <div class="card choice" id="phone">
+    <input type="checkbox" id="i-phone" class="infotoggle"><h3><span>Phone</span><label for="i-phone" class="infobtn" aria-label="More about this">i</label></h3>
+    <div class="callout">For Android. Your diary is kept on your phone and nowhere else, and it works with no internet. Open the downloaded file and let Android install it (it will ask permission for your browser the first time, because the app is not on a store). Then add the widget: press and hold an empty spot on your home screen, choose Widgets, find Tadpole, and drag it out. It has buttons for a meal, stool, how your head feels, and a box to type in.</div>
+    <p class="sub">The app and the home-screen widget, for Android.</p>
+    <a class="btn" href="downloads/tadpole.apk" download>Download for Android</a>
+    <span class="small muted ver" data-ver>__APK_INFO__</span>
+  </div>
+
+  <div class="card choice" id="desktop">
+    <input type="checkbox" id="i-desktop" class="infotoggle"><h3><span>Computer</span><label for="i-desktop" class="infobtn" aria-label="More about this">i</label></h3>
+    <div class="callout">Optional. It keeps a copy of your phone's diary on your computer, shows it on a big screen, and holds documents next to it, like a diet plan. It needs Python 3.10 or newer. Unzip the folder, run <code>python3 start.py</code> (on Windows <code>py start.py</code>), and your browser opens to a pairing page. Scan the code with your phone's camera. They connect over your home Wi-Fi; nothing goes through the internet. If you use Tailscale, the pairing code includes your Tailscale address too, so your phone can sync from anywhere.</div>
+    <p class="sub">Keep a copy on your computer. Connects to your phone over Wi-Fi.</p>
+    <a class="btn ghost" href="downloads/tadpole-desktop.zip" download>Download for computer</a>
+    <span class="small muted ver">__DESKTOP_INFO__</span>
+  </div>
+
+  <div class="card choice" id="try">
+    <input type="checkbox" id="i-try" class="infotoggle"><h3><span>In your browser</span><label for="i-try" class="infobtn" aria-label="More about this">i</label></h3>
+    <div class="callout">The same app, running in this browser tab. The demo is filled with made-up entries so you can look around. The other one starts empty and keeps your entries in this browser only, which works on an iPhone too; there is no widget outside the Android app.</div>
+    <p class="sub">The same app, no install.</p>
+    <div class="row"><a class="btn ghost" href="demo/">Look around (demo)</a><a class="btn ghost" href="app/">Use it here</a></div>
+  </div>
+</main>
+<script src="assets.js"></script>
+<script src="site.js"></script>
+</body>
+</html>

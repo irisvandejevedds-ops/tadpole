@@ -6,7 +6,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.widget.Toast;
 
-/** An invisible screen the refresh arrow opens. While it is up the app is in the foreground, so it has full network even when the phone is idle.
+/** An invisible screen the refresh arrow opens. It repaints the widget and, if a computer is paired, syncs with it while the app is in the foreground.
  *  It always clears the spinner and closes itself, however the fetch ends. */
 public class RefreshActivity extends Activity {
     private boolean done = false;
@@ -21,9 +21,7 @@ public class RefreshActivity extends Activity {
             long t0 = System.currentTimeMillis();
             String why = null;
             try {
-                Sync.flush(this);
-                Sync.state(this, true);
-                why = Sync.lastError;
+                if (Desk.paired(this)) { String r = Desk.sync(this); if (!r.isEmpty()) why = r; }
             } catch (RuntimeException e) {
                 why = "something went wrong (" + e.getClass().getSimpleName() + ")";
             }
@@ -37,7 +35,7 @@ public class RefreshActivity extends Activity {
         if (done) return;
         done = true;
         PondWidget.refreshAll(this);
-        if (why != null) Toast.makeText(this, "Couldn't reach Tadpole: " + why + ". Showing the saved pond.", Toast.LENGTH_LONG).show();
+        if (why != null) Toast.makeText(this, "Couldn't sync: " + why + ".", Toast.LENGTH_LONG).show();
         finish();
         overridePendingTransition(0, 0);
     }

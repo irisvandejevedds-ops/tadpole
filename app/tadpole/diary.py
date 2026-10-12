@@ -18,7 +18,7 @@ OUT_OF_TEN = re.compile(r"(\d{1,2})\s*(?:/|out of)\s*10")
 LONE_NUMBER = re.compile(r"(?<![\d.:/$])\b(10|\d)\b(?![\d.:%/])")
 PREFIX = re.compile(r"^\s*(food|ate|drank|symptoms?|note|stool|poop|bm|s|f|n)\s*[:\-]\s*", re.I)
 KINDS = ("food", "symptom", "clear", "note", "stool")
-SOURCES = ("app", "widget", "vault")
+SOURCES = ("app", "widget", "vault", "phone")
 MAX_TEXT = 400
 
 
@@ -106,7 +106,7 @@ def remove(db, entry_id, now, restore=False):
 def update(db, entry_id, text, kind, severity, ts=None):
     p = parse(text)
     kind = kind if kind in KINDS else p["kind"]
-    sev = None if kind in ("food", "note") else (0 if kind == "clear" else (None if severity in (None, "") else max(0, min(10, int(severity)))))
+    sev = None if kind in ("food", "note", "stool") else (0 if kind == "clear" else (None if severity in (None, "") else max(0, min(10, int(severity)))))
     if ts:
         db.ex("UPDATE entries SET ts=? WHERE id=?", (clock.iso(ts), entry_id))
     db.ex("UPDATE entries SET text=?, kind=?, severity=? WHERE id=?", (p["text"] or text.strip()[:MAX_TEXT], kind, sev, entry_id))

@@ -4,7 +4,8 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <application android:label="Tadpole" android:icon="@mipmap/ic_launcher" android:allowBackup="false"
         android:usesCleartextTraffic="false" android:theme="@android:style/Theme.Material.Light.NoActionBar">
-        <activity android:name=".MainActivity" android:exported="true" android:launchMode="singleTask">
+        <activity android:name=".MainActivity" android:exported="true" android:launchMode="singleTask" android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:excludeFromRecents="true" android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
@@ -13,7 +14,7 @@
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:scheme="tadpole" android:host="setup"/>
+                <data android:scheme="tadpole" android:host="pair"/>
             </intent-filter>
         </activity>
         <activity android:name=".EntryActivity" android:exported="false" android:theme="@android:style/Theme.Material.Light.Dialog.NoActionBar"
@@ -22,11 +23,12 @@
             android:excludeFromRecents="true" android:noHistory="true" android:taskAffinity="" android:launchMode="singleInstance"/>
         <activity android:name=".QuickActivity" android:exported="false" android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:excludeFromRecents="true" android:noHistory="true" android:taskAffinity="" android:launchMode="singleInstance"/>
+        <activity android:name=".WebActivity" android:exported="false" android:launchMode="singleTask" android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:windowSoftInputMode="adjustResize"/>
         <receiver android:name=".PondWidget" android:exported="true" android:label="Tadpole">
             <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE"/></intent-filter>
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_info"/>
         </receiver>
         <service android:name=".SyncService" android:exported="false" android:permission="android.permission.BIND_JOB_SERVICE"/>
-        <service android:name=".RetryService" android:exported="false" android:permission="android.permission.BIND_JOB_SERVICE"/>
     </application>
 </manifest>

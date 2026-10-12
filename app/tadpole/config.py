@@ -11,10 +11,18 @@ class Config:
         self.require_ts_header = e.get("TADPOLE_REQUIRE_TS_HEADER", "1") == "1"
         self.ts_logins = {x.strip().lower() for x in e.get("TADPOLE_TS_LOGINS", "").split(",") if x.strip()}
         self.cookie_secure = e.get("TADPOLE_COOKIE_SECURE", "1") == "1"
+        # the companion listener for phones: same app, but it answers only the sync route, over TLS the phone pins
+        self.sync_only = e.get("TADPOLE_SYNC_ONLY", "0") == "1"
+        self.sync_port = int(e.get("TADPOLE_SYNC_PORT", "8120"))
+        self.sync_urls = [x.strip() for x in e.get("TADPOLE_SYNC_URLS", "").split(",") if x.strip()]
 
     @property
     def db_path(self):
         return self.data_dir / "tadpole.db"
+
+    @property
+    def tls_dir(self):
+        return self.data_dir / "tls"
 
     @property
     def apk_dir(self):

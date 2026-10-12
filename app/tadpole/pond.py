@@ -4,7 +4,7 @@ Colour: green while you are keeping up, yellow after a day of silence, red after
 Growth: replayed from the diary, day by day. A day with entries and mild symptoms (3 or under) earns a point, a middling day (4 to 6) costs half a point,
 a flare (7 or more) costs two, a day with no entries changes nothing. Points never go below zero. Today only counts if something has already gone wrong,
 so a good day is rewarded once it is over."""
-from datetime import timedelta
+from datetime import date, timedelta
 
 from . import clock, diary
 
@@ -44,6 +44,9 @@ def growth(db, tz, today):
     pts = 0.0
     if days:
         d = min(days)
+        start = db.get_setting("pond_start")
+        if start:
+            d = max(d, date.fromisoformat(start))
         while d <= today:
             rows = days.get(d)
             if rows:

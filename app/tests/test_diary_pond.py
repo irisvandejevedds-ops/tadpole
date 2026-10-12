@@ -130,3 +130,16 @@ def test_foods_often_followed_by_symptoms_surface_and_others_do_not(db, cfg):
     assert "pizza" in words and "cheese" in words and "rice" not in words
     assert next(i for i in t["items"] if i["word"] == "pizza")["followed"] == 6 and 0 < t["baseline"] < 1
     assert pond.triggers(db, cfg.tz, min_seen=50)["items"] == []
+
+
+def test_history_before_the_pond_start_does_not_grow_the_frog(db):
+    from zoneinfo import ZoneInfo
+    tz = ZoneInfo("America/Toronto")
+    for d in range(1, 11):
+        diary.add(db, "toast", at(f"2026-09-{d:02d}T15:00:00Z"), ts=at(f"2026-09-{d:02d}T15:00:00Z"))
+    today = at("2026-10-05T15:00:00Z").astimezone(tz).date()
+    assert pond.growth(db, tz, today)["points"] == 10
+    db.set_setting("pond_start", "2026-10-01")
+    assert pond.growth(db, tz, today)["points"] == 0
+    diary.add(db, "toast", at("2026-10-02T15:00:00Z"), ts=at("2026-10-02T15:00:00Z"))
+    assert pond.growth(db, tz, today)["points"] == 1

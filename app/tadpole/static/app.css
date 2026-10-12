@@ -86,3 +86,5 @@ h1:not(:has(.infobtn)){display:block}
 .facts dd.long{grid-column:1/-1;margin:-2px 0 6px;white-space:pre-wrap}.facts dt:has(+ dd.long){grid-column:1/-1}
 .doc h2,.doc h3,.doc h4{margin:18px 0 6px}.doc h2:first-child{margin-top:0}.doc p,.doc ul,.doc ol{margin:8px 0}.doc ul,.doc ol{padding-left:22px}
 .doc blockquote{margin:10px 0;padding:6px 12px;border-left:6px solid var(--pad-dk);background:#EAF5D6}.doc pre{overflow-x:auto;background:#EAF5D6;padding:8px}.doc hr{border:0;border-top:3px solid var(--pad-dk);margin:16px 0}
+
+.qr{display:flex;justify-content:center;margin:6px 0 12px}.qr svg{width:min(300px,100%);height:auto;image-rendering:pixelated;border:4px solid var(--line)}

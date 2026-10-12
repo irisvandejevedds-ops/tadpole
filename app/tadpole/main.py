@@ -15,13 +15,13 @@ from markupsafe import Markup
 from starlette.exceptions import HTTPException as StarletteHTTPException
 from starlette.middleware.gzip import GZipMiddleware
 
-from . import auth, clock, diary, mdrender, pond, sprites, tokens, widget_routes
+from . import auth, clock, diary, mdrender, pairing, pond, sprites, sync, tokens, widget_routes
 from .config import get_config
 from .db import DB, open_db
 
 HERE = pathlib.Path(__file__).parent
 templates = Jinja2Templates(directory=str(HERE / "templates"))
-NAV = [("Pond", "/"), ("Diary", "/diary"), ("Patterns", "/patterns"), ("Library", "/library"), ("Widget", "/settings/widget")]
+NAV = [("Pond", "/"), ("Diary", "/diary"), ("Patterns", "/patterns"), ("Library", "/library"), ("Phone", "/settings/phone")]
 FACT_LABELS = [("entry_type", "Type"), ("phase", "Phase"), ("fodmap_group", "FODMAP group"), ("stool_bsfs", "Bristol"), ("onset_lag_h", "Onset lag (h)"),
                ("bloating", "Bloating"), ("abdo_pain", "Abdominal pain"), ("gas", "Gas"), ("urgency", "Urgency"), ("energy", "Energy"), ("stress", "Stress"),
                ("sleep_h", "Sleep (h)"), ("mood_context", "Mood context")]
@@ -88,7 +88,7 @@ def create_app():
             if bearer[:7].lower() == "bearer " and request.url.path in tokens.ALLOWED:
                 if tokens.too_many_failures():
                     raise HTTPException(429, "too many attempts")
-                if tokens.verify(db, bearer[7:].strip()):
+                if tokens.verify(db, bearer[7:].strip(), request.url.path):
                     return {"token": True}
                 tokens.note_failure()
             raise NeedLogin()
@@ -111,7 +111,9 @@ def create_app():
     @app.middleware("http")
     async def guard(request: Request, call_next):
         path = request.url.path
-        if path != "/healthz" and cfg.require_ts_header:
+        if cfg.sync_only and path not in ("/healthz", "/api/sync"):
+            return PlainTextResponse("Not found", status_code=404)
+        if path != "/healthz" and cfg.require_ts_header and not cfg.sync_only:
             who = request.headers.get("tailscale-user-login", "").lower()
             if who not in cfg.ts_logins:
                 return PlainTextResponse("This app is only available on your tailnet.", status_code=403)
@@ -304,6 +306,46 @@ def create_app():
         if d["kind"] != "pdf" or not p.is_file():
             raise HTTPException(404, "No file for this document")
         return FileResponse(p, media_type="application/pdf", filename=f"{slug}.pdf", content_disposition_type="inline")
+
+    # ---------------- phones ----------------
+    @app.post("/api/sync")
+    async def api_sync(request: Request, db: DB = Depends(get_db), _=Depends(session)):
+        if int(request.headers.get("content-length") or 0) > sync.MAX_BODY:
+            raise HTTPException(413, "too much data in one sync")
+        raw = await request.body()
+        if len(raw) > sync.MAX_BODY:
+            raise HTTPException(413, "too much data in one sync")
+        try:
+            body = json.loads(raw)
+            if not isinstance(body, dict):
+                raise ValueError("body is not an object")
+            return sync.handle(db, body)
+        except (ValueError, TypeError) as e:
+            raise HTTPException(400, str(e) or "bad sync request")
+
+    def phone_page(request, db, new_token=None):
+        host = request.headers.get("host", "")
+        urls = pairing.endpoints(cfg, host)
+        link = pairing.link(cfg, urls, new_token, name=pairing.computer_name()) if new_token else None
+        return render(request, db, "phone.html", phones=tokens.listing(db, "sync"), new_token=new_token, link=link, urls=urls,
+                      qr=pairing.qr_svg(link) if link else None, tls_ready=pairing.pin(cfg) is not None,
+                      apk=(cfg.apk_dir / widget_routes.APK_NAME).exists(), apk_kb=((cfg.apk_dir / widget_routes.APK_NAME).stat().st_size // 1024) if (cfg.apk_dir / widget_routes.APK_NAME).exists() else 0)
+
+    @app.get("/settings/phone", response_class=HTMLResponse)
+    def phone_get(request: Request, db: DB = Depends(get_db), _=Depends(session)):
+        return phone_page(request, db)
+
+    @app.post("/settings/phone/new", response_class=HTMLResponse)
+    async def phone_new(request: Request, db: DB = Depends(get_db), _=Depends(session)):
+        f = await request.form()
+        return phone_page(request, db, tokens.create(db, (f.get("name") or "My phone").strip(), "sync"))
+
+    @app.post("/settings/phone/revoke")
+    async def phone_revoke(request: Request, db: DB = Depends(get_db), _=Depends(session)):
+        f = await request.form()
+        if (f.get("id") or "").isdigit():
+            tokens.revoke(db, int(f["id"]))
+        return RedirectResponse("/settings/phone", 303)
 
     # ---------------- the widget's API ----------------
     def api_state(db):
