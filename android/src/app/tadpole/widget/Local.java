@@ -54,7 +54,7 @@ final class Local {
         PondWidget.refreshAll(c);
     }
 
-    static final int JOB_SYNC = 10, JOB_PERIODIC = 9, JOB_EXPIRE = 11;
+    static final int JOB_SYNC = 10, JOB_PERIODIC = 9, JOB_EXPIRE = 11, JOB_REFRESH = 12;
 
     /** Ask for a sync soon (only does anything when a computer is paired). */
     static void scheduleSync(Context c) {
@@ -69,5 +69,17 @@ final class Local {
         JobScheduler js = (JobScheduler) c.getSystemService(Context.JOB_SCHEDULER_SERVICE);
         if (js == null || js.getPendingJob(JOB_PERIODIC) != null) return;
         js.schedule(new JobInfo.Builder(JOB_PERIODIC, new ComponentName(c, SyncService.class)).setPeriodic(30 * 60 * 1000L).build());
+    }
+
+    /** The widget's refresh arrow: show the spinner and sync right away as an expedited background job (no screen opens). */
+    static void refreshNow(Context c) {
+        JobScheduler js = (JobScheduler) c.getSystemService(Context.JOB_SCHEDULER_SERVICE);
+        if (js == null) { PondWidget.refreshAll(c); return; }
+        PondWidget.setLoading(c, true);
+        JobInfo.Builder b = new JobInfo.Builder(JOB_REFRESH, new ComponentName(c, SyncService.class)).setRequiredNetworkType(JobInfo.NETWORK_TYPE_ANY);
+        if (android.os.Build.VERSION.SDK_INT >= 31) b.setExpedited(true); else b.setOverrideDeadline(0);
+        js.schedule(b.build());
+        android.app.AlarmManager am = (android.app.AlarmManager) c.getSystemService(Context.ALARM_SERVICE);     // if the job never runs, put the arrow back
+        if (am != null) am.setAndAllowWhileIdle(android.app.AlarmManager.RTC, System.currentTimeMillis() + 45000, RefreshReceiver.clearIntent(c));
     }
 }

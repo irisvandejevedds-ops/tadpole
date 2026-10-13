@@ -104,7 +104,7 @@ public class PondWidget extends AppWidgetProvider {
         rv.setImageViewBitmap(R.id.refresh, Pixel.refresh(c, stale));
         rv.setViewVisibility(R.id.refresh, View.VISIBLE);
         rv.setViewVisibility(R.id.spin, View.GONE);
-        rv.setOnClickPendingIntent(R.id.refresh, open(c, 2, new Intent(c, RefreshActivity.class)));
+        rv.setOnClickPendingIntent(R.id.refresh, PendingIntent.getBroadcast(c, 2, new Intent(c, RefreshReceiver.class), PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE));
         rv.setOnClickPendingIntent(R.id.flip, open(c, 5, new Intent(c, MainActivity.class).putExtra("open_web", true)));
         rv.setOnClickPendingIntent(R.id.info, open(c, 5, new Intent(c, MainActivity.class).putExtra("open_web", true)));
 

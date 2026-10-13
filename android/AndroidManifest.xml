@@ -19,8 +19,7 @@
         </activity>
         <activity android:name=".EntryActivity" android:exported="false" android:theme="@android:style/Theme.Material.Light.Dialog.NoActionBar"
             android:excludeFromRecents="true" android:taskAffinity="" android:launchMode="singleInstance"/>
-        <activity android:name=".RefreshActivity" android:exported="false" android:theme="@android:style/Theme.Translucent.NoTitleBar"
-            android:excludeFromRecents="true" android:noHistory="true" android:taskAffinity="" android:launchMode="singleInstance"/>
+        <receiver android:name=".RefreshReceiver" android:exported="false"/>
         <activity android:name=".QuickActivity" android:exported="false" android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:excludeFromRecents="true" android:noHistory="true" android:taskAffinity="" android:launchMode="singleInstance"/>
         <activity android:name=".WebActivity" android:exported="false" android:launchMode="singleTask" android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
